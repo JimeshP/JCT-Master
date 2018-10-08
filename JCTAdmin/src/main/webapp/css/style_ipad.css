@@ -1,0 +1,276 @@
+@media screen and (max-width: 1280px) {
+
+.select_option{
+  /*  width: 39%;	 */
+  width: 33% !important;
+}
+
+.select_option_radio{
+   width: 58% !important;
+   padding-left:0;
+   padding-right:0; 	
+}
+	
+	
+.form-control-general, .form-control-general-form-redefined{
+	width: 75%;
+}	
+
+.hidden-ipad{
+	display: none;
+}	
+
+#refQuestionAddDiv{
+	width: 70%;
+	margin: 0 auto;
+}	
+
+.function_group label{
+	font-size: 15px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.select_option_radio .hero-unit .jHtmlArea, .select_option_radio .hero-unit .jHtmlArea .ToolBar{
+	width: 90% !important;
+}
+
+.select_option_radio .hero-unit div iframe{
+	width: 90% !important;
+}
+
+.value_radio_text{
+	padding-left: 28px;
+}
+
+#refQuestionAddDiv {
+   width: 55% !important;
+ margin-top: 0px !important;
+ margin-right: auto !important;
+ margin-bottom: -4px !important;
+ margin-left: 35px !important;
+ padding-left: 150px !important;
+}
+
+#actionPlanAddDiv{
+	width: 70%;
+	margin: 0 auto;
+}	
+
+
+#actionPlanAddDiv{
+ width: 55% !important;
+ margin-top: 0px !important;
+ margin-right: auto !important;
+ margin-bottom: -4px !important;
+ margin-left: 35px !important;
+ padding-left: 150px !important;
+}
+
+.left_btn_allgn {
+    margin-top: -54px;
+   /* padding-left: 388px !important;*/
+   padding-left: 407px !important;
+    margin-left: -1px !important;
+}
+
+.right_allgn {
+    padding-left: 0px !important;
+    margin-left: 103px !important;
+}
+
+.right_allgn_action {
+    padding-left: 0px !important;
+    margin-left: 224px !important;
+}
+
+
+ .control-label-renew {
+    margin-left: 5px !important;
+}
+.form-control-general-form-redefined-again-long {
+    margin-left: -46px !important;
+}
+/************Change 29.10.14**************/
+.form-control-general {
+width: 92% !important;
+}
+.form-control-reflectn-qtn {
+width: 75% !important;
+} 
+.width_120 {
+    width: 171% !important;
+}
+.disable_style {
+background-color: #E6E6E6 !important;
+}
+input[disabled][type='text']{
+ color: #060606 !important; 
+-webkit-text-fill-color: #060606 !important; 
+opacity:0.7 !important;
+
+}
+.registered_user_box{
+margin-right: 24px !important;
+}
+
+.sub_text_label {
+    font-size: 14px !important;
+}
+.renewSubChange{
+margin-top: 8% !important;
+}
+/********JIRA-ID-JCTP-21 6.1.15***************/
+.text_label {
+font-size: 15px!important;
+color: #7E7E7E!important;
+font-weight: normal!important;
+}
+
+.ipad_text_label{
+font-size: 15px !important;
+color: #7E7E7E!important;
+font-weight: normal !important;
+}
+.ui-datepicker-trigger{
+	margin-top:  -30% !important;
+	margin-left: 73% !important;
+}
+.download_ipad{
+	margin-left: 27px !important
+}
+.new_width_csv {
+    width: 36% !important;
+}
+
+/********JIRA-ID-JCTP-24 6.1.15******************/
+.col-sm-2.radio_text.radio_text_radio{
+	margin-left: -11px !important;
+	width: 20% !important;
+}
+
+.radio_text{
+	margin-left: -1px !important;
+}
+.search_btn_survey{
+	margin-left: 43% !important;
+}
+.imageHolder_ipad{
+    width: 43% !important;
+    margin-left: 1% !important;	
+    margin-right:1% !important;
+}
+
+/**/
+ .input_chg_button_cancel {
+ padding-left : 5px !important;
+} 
+
+.main_contain_ipad{
+	margin-top: 6px !important;
+}
+.facCheckDiv{
+	margin-top: -1% !important;
+}
+
+.existingUserDiagramId{
+	margin-left: 5% !important;
+}
+
+.sub_text_label_survey{
+	font-size: 13px !important;
+}
+
+.reset_btn_survey{
+	margin-top: 4% !important;
+}
+.reset_ipad{
+	margin-left: 3%;
+}
+
+.update_button_ipad{	
+	margin-top: 1% !important;
+	margin-left: 35% !important;
+}
+
+.chgOrderBtnActionClass{
+	margin-left: -5% !important;
+}
+
+.text_label_globalprofile{
+font-size: 14px!important;
+color: #7E7E7E!important;
+font-weight: normal!important;
+}
+
+.search_btn_action {
+	width: 53% !important;
+	margin-left: 78% !important;
+	margin-top: -35% !important;
+}
+
+.changeOrdBtn_Ipad{
+  margin-top: 6px !important;
+margin-left: -70px !important
+}
+
+.right_allgn_strength {
+     margin-left: 157px !important;
+}
+.global_chg_text {
+   padding-left: 4px !important;
+}
+.right_allgn_edit{
+	margin-left: 173px !important;
+}
+
+.align_ipad{
+	margin-left: -9% !important;
+}
+
+.align_ipad_text{
+	margin-left: -8% !important;
+}
+
+.font_ipad{
+	font-size: 10px !important;
+}
+
+.font_ipad_two {
+	font-size: 10px !important;
+	padding-left: 3px !important;
+	padding-right: 0px !important;
+}
+
+.ipad_text_width{
+	width: 43% !important;
+}
+
+.ui-datepicker {
+    margin-left: -3% !important;
+}
+
+.survey_radio_width{
+	width: 92% !important;
+}
+
+.reset_btn_survey {
+    margin-bottom: 32px;
+}
+
+.ipad_alignment{
+	margin-left: -2% !important;
+}
+
+.checkBox_align {
+	margin-left: 12% !important;
+}
+
+.facilitator_name {
+	width: 27% !important;
+}
+
+
+}/*Conditional bracket!*/
+

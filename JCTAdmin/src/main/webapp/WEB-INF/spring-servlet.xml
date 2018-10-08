@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+    xmlns:lang="http://www.springframework.org/schema/lang"
+    xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+        http://www.springframework.org/schema/jee
+        http://www.springframework.org/schema/jee/spring-jee.xsd
+        http://www.springframework.org/schema/lang
+        http://www.springframework.org/schema/lang/spring-lang.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd
+		http://www.springframework.org/schema/task 
+        http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+	
+	<!-- enables @Autowired annotation -->
+	<context:annotation-config />
+		<task:annotation-driven executor="taskExecuter"/>
+		<task:executor queue-capacity="100" id="taskExecuter"/>
+		
+	<!-- scan packages and autowire beans automatically (no need to declare beans manually) -->
+	<context:component-scan base-package="com.vmware" />
+    <context:component-scan base-package="com.vmware.jct.controller" />
+    <context:component-scan base-package="com.vmware.jct.dao" />
+    <context:component-scan base-package="com.vmware.jct.service" />
+    <context:component-scan base-package="com.vmware.jct.common.utility" />
+    <context:component-scan base-package="com.vmware.jct.service.vo" />
+   
+	<mvc:annotation-driven />
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/img/**" location="/img/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+    <mvc:resources mapping="/fonts/**" location="/fonts/"/>
+    <mvc:resources mapping="/lib/**" location="/lib/"/>
+    <mvc:resources mapping="/view/**" location="/view/"/>
+    <mvc:resources mapping="/font/**" location="/font/"/> 
+    <mvc:resources mapping="/data/**" location="file:/data/"/>
+    
+	<!-- Setup tiles -->
+	
+	
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+	  <property name="order" value="1" />
+	  <property name="mediaTypes">
+		<map>
+		   <entry key="json" value="application/json" />
+       </map>
+	  </property>
+      <property name="defaultViews">
+		<list>
+		  <!-- JSON View -->
+		  <bean
+			class="org.springframework.web.servlet.view.json.MappingJacksonJsonView">
+		  </bean>
+  
+		 </list>
+	  </property>
+	   <property name="viewResolvers">
+            <list>
+                <bean class="org.springframework.web.servlet.view.BeanNameViewResolver"/>                               
+            </list>
+        </property>
+	  <property name="ignoreAcceptHeader" value="true" />
+    </bean>     
+          
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="order" value="2" />
+        <property name="prefix" value="/view/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+    
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+        p:location="/WEB-INF/jdbc.properties" />
+	
+    <bean id="dataSource"
+        class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"
+        p:driverClassName="${jdbc.driverClassName}"
+        p:url="${jdbc.databaseurl}" p:username="${jdbc.username}"
+        p:password="${jdbc.password}" 
+		p:testOnBorrow="${jdbc.testOnBorrow}" 
+        p:validationQuery="${jdbc.validationQuery}"/>
+	
+	
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan">
+			<list>
+				<value>com.vmware.jct.model</value>
+			</list>
+		</property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">${jdbc.dialect}</prop>
+                <prop key="hibernate.show_sql">false</prop>
+            </props>
+        </property>
+    </bean>
+	
+    <tx:annotation-driven />
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+   
+	
+	<bean id="returnVO" class="com.vmware.jct.service.vo.ReturnVO" />
+	<bean id="userVO" class="com.vmware.jct.service.vo.UserVO" />
+
+
+<bean id="multipartResolver"
+        class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- max upload size in bytes -->
+        <property name="maxUploadSize" value="219954241" /> <!-- 200MB -->
+        
+        <!-- max size of file in memory (in bytes) -->
+        <property name="maxInMemorySize" value="1048576" /> <!-- 1MB -->
+
+    </bean>
+
+
+</beans>

@@ -1,0 +1,75 @@
+h5.heading_main{
+	margin: 0;
+	font-size: 22px !important;
+	line-height: 50px !important;
+  font-weight: normal;
+}
+h5.logo{
+  background: url('https://s3-us-west-2.amazonaws.com/jobcrafting/images/logo.png') no-repeat 0 center;
+  display: block;
+  width: 203px;
+  height:53px;
+  cursor: pointer;
+  /* background-size: contain; */
+}
+.header{
+	position: relative;
+	color: #fff;
+	min-height: 54px;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*background: #006990;*/ /* Old browsers */
+	background: #021049 /*#429CE7;*/
+	border: none;
+}
+.footer-wrapper{
+/*background:#006990;*/
+background:#429CE7;
+padding: 6px 0px;}
+
+.nav-header{
+position: relative;
+color: #fff;
+min-height: 50px;
+padding-left: 20px;
+padding-right: 20px;
+background: #88cbdf; /* Old browsers */
+border-bottom: 1px solid #BABABA;
+padding-top: 0;
+border-top: #fdfdfd 1px solid;
+box-shadow: 1px 3px 3px #6C6C6C;
+}
+
+#panel {
+	background: #810123;
+	display: none;
+	color: #fff;
+	padding: 1px 0px;
+}
+.slide {
+	margin: 0;
+	padding: 0px;
+	border-top: solid 30px #810123;
+	display: block;
+}
+.bar_loop{
+    background: none repeat scroll 0 0 #810123;
+    display: block;
+    height: 6px;
+    left: -21px;
+    position: absolute;
+    top: -27px;
+    width: 42px;	
+}
+
+#drp{
+	border-left: 21px solid rgba(0, 0, 0, 0);
+    border-right: 21px solid rgba(0, 0, 0, 0);
+    border-top: 22px solid #810123;
+    bottom: -27px;
+    height: 19px;
+    left: 20px;
+    padding: 0;
+    position: absolute;
+    width: 0;
+}

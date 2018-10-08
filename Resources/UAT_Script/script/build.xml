@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="MyTask" basedir="." default="copyFinal">
+
+<property file="build.properties" />
+<property file="serverStatus.properties" />
+
+<property name="warfile" value="user"/>
+<property name="reNameSrcFile" value="user\css\"/>
+<property name="reNameImgSrcFile" value="user\img\"/>
+<property name="copyDir" value="${ant.copy.dir}"/>
+<property name="tempDir" value="${ant.temp.dir}"/>
+<property name="copyDescFile" value="user\css\"/>
+<property name="copyDescImpFile" value="user\img\"/>
+
+<!--<target name="tomcat-start" depends="copyFinal">
+<echo> staring tomcat
+</echo>
+	<propertyfile file="serverStatus.properties">
+			<entry  key="ant.server.status8080" value="True"/>
+	</propertyfile>
+     <exec executable="net">
+        <arg value="start" />
+        <arg value="${tomcat.service.name}" />
+    </exec>
+</target>-->
+
+<target name="copyFinal" depends="pack">
+<propertyfile file="serverStatus.properties">
+			<entry  key="ant.server.status8080" value="True"/>
+	</propertyfile>
+	<copy todir="${copyDir}\webapps">
+    <filelist dir="${tempDir}">
+      <file name="user.war"/>      
+    </filelist>
+	
+  </copy>
+</target>
+<target name="pack" depends="unpack">
+  <zip destfile="${warfile}.war" basedir="${warfile}"  />
+</target>
+
+<target name="unpack" depends="deleteWar">
+<echo> test ${tempDir} ${ant.version}
+</echo>
+<delete>
+
+    <fileset dir="${tempDir}" includes="*.war"/>
+	<fileset dir="${ant.whitelebel.dir}\whitelebel" includes="*.*"/>
+	<!-- <delete dir="${ant.whitelebel.dir}\whitelebel"  />-->
+  </delete>
+  
+  
+   
+</target>
+
+<target name="deleteWar" depends="copy,file-checks,do-something-with-css-file,do-something-with-logo-file">
+   
+	
+</target>
+<target name="file-checks" >
+<echo> test ${warfile} </echo>
+	<unwar src="${warfile}.war" dest="${warfile}" />
+   <!-- <available file="${ant.temp.dir1}/${warfile}/css/commonStyle.css"  property="css.file.found"/> -->
+   <available file="${ant.whitelebel.dir}/whitelebel/commonStyle.css"  property="css.file.found"/>
+    <!-- <available file="/${warfile}/../logo.png" property="logo.file.found"/> -->
+	<available file="${ant.whitelebel.dir}/whitelebel/logo.png" property="logo.file.found"/>
+<!--	<echo> test property if="logo.file.found"</echo>-->
+</target>
+<target name="do-something-with-css-file" if="css.file.found"  >
+<echo> Inside do-something-with-css-file................................... </echo>
+   <renameext srcDir="${reNameSrcFile}" includes="commonStyle.css"  fromExtension=".css" toExtension=".css.bkp" replace="true"/>
+	<copyfile src="${warfile}/../commonStyle.css" dest="${copyDescFile}/commonStyle.css"/>
+</target>
+<target name="do-something-with-logo-file"  if="logo.file.found">
+   <renameext srcDir="${reNameImgSrcFile}" includes="logo.png"  fromExtension=".png" toExtension=".png.bkp" replace="true"/>
+	
+	<copyfile src="${warfile}/../logo.png" dest="${copyDescImpFile}/logo.png" />
+</target>
+
+<target name="copy" depends="clean">
+<echo>  Inside Copy....................................... </echo>
+	<copy todir="${tempDir}" failonerror="false">
+    <filelist dir="${copyDir}\webapps">
+      <file name="user.war"/>
+      
+    </filelist>
+	<filelist dir="${ant.whitelebel.dir}\whitelebel">
+      <file name="commonStyle.css"/>
+	   <file name="logo.png"/>
+      
+    </filelist>
+  </copy>
+  <echo> End of copy...................................... </echo>
+  <delete dir="${ant.copy.dir}\webapps\user" />
+  <delete dir="${ant.copy.dir}\work\" />
+</target>
+
+
+<target name="clean">
+	<propertyfile file="serverStatus.properties">
+			<entry  key="ant.server.status8080" value="False"/>
+	</propertyfile> 
+    <delete dir="${warfile}" verbose="true">
+	 <fileset dir="${tempDir}" includes="*.war,*.css"/>
+	 </delete>
+</target>
+
+</project>

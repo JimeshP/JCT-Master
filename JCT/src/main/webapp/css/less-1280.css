@@ -1,0 +1,2620 @@
+@media screen and (min-width: 801px) and (max-width: 1150px) {	
+.oval_cloned_div .removeService {	
+	display: block;
+}	
+.logo_area{
+	width: 26%;
+	float: left;
+}
+  
+.time_section{
+	width: 33%;
+}  
+
+.instruction {
+    opacity: 0.8;
+    position: absolute;
+}
+
+.welcome_area {
+/*     margin-top: 16px !important;
+    text-align: right;
+    width: 35% !important; */
+margin-top: 16px !important;
+text-align: left;
+width: 33% !important;
+    float: left;
+}
+.task_icon img{
+	width: 100%;
+	height: auto;
+}	
+	
+.footer_landing{
+	position: relative;
+}
+
+.tool_title{
+	width: 35% !important;
+	float: left;
+}
+.heading-title{
+	width: 65% !important ;
+	float: left;
+}
+.div_strength .border, .div_value .border, .div_passion .border{
+  font-size:12px;
+  font-weight:bold;
+}	
+.oval{
+/* margin:0 12px 12px; */
+margin-left: -3px !important;
+margin-right: 18px !important;
+}
+
+.plus-sign {
+	margin-left: 0px !important;
+	margin-right: 18px !important;
+}
+
+.up-triangle {
+	margin-left: 0px !important;
+	margin-right: 18px !important;
+}
+.inner_div{
+padding-bottom:8px;
+}	
+.diagramBox .heading-diagram{
+   float: left;
+    font-size: 13px;
+    margin: 10px 15px 10px 0;
+}
+/*.no_scroll::-webkit-scrollbar {display:none !important;}*/
+.energy_field{
+width:26.667% !important;
+}
+.task_item_top .task {
+    font-size: 8px;
+    font-weight: normal;
+    margin-top: 0px;
+    text-align: left;
+    width: 21% !important;
+}
+.task_item_top *{
+padding: 0 !important;
+}
+
+#sketchSearchDiv::-webkit-scrollbar {
+display:none !important;
+}	
+
+
+#ASsketchSearchDiv::-webkit-scrollbar {
+display:none !important;
+}	
+
+/* #outderDiv .energy_field{
+width:22% !important;
+} */
+.energy{
+width:41%;
+}
+
+ /* Start before sketch page Special task box css */ 
+ .task_item_top {
+    height:22%;
+ 	min-height: 39px;
+ }
+ 
+ .task_item_botm{
+ height: 78%;
+ padding: 5px !important
+ }
+ 
+ .task_item_top .task{
+ font-size: 9px;
+ line-height: 23px;
+ width: 17% !important;
+ }
+ .task_item_top .task_smaller{
+ font-size: 10px !important;
+ line-height: 25px;
+ width: 14% !important;
+ }
+ .task_item_top .task_middle{
+ font-size: 12px;
+ line-height: 23px;
+ width: 27% !important;
+ }
+
+ 
+ 
+  .task_item_top .energy{
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    width: 35% !important;
+    margin-top: 0px;
+}
+ .task_item_top .energy_smaller {
+    font-size: 10px;
+    line-height: 25px;
+    text-align: center;
+    width: 36% !important;
+}
+ .task_item_top .energy_small{
+    font-size: 9px;
+    line-height: 22px;
+    text-align: center;
+    width: 50% !important;
+}
+.task_item_top .energy_middle{
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    width: 35% !important;
+}
+ .task_item_botm textarea{
+ font-size: 100%;
+ }
+
+ /* end before sketch page Special task box css */ 
+
+.input-sm_custom{
+ width: 25px;
+ font-size: 12px !important;
+ font-weight: normal;	
+}
+.form-control-sketch_smaller{
+ width: 15px !important;
+ font-size: 8px !important;
+ }
+/* .form-control-sketch_small{
+ width: 15px !important;
+ font-size: 9px !important;
+ }  */
+ .form-control-sketch_middle{
+ width: 26px;
+ font-size: 12px !important;
+ }
+  .form-control-sketch_large{
+ width: 39px;
+ font-size: 14px !important;
+ }
+ .form-control-sketch_larger{
+  width: 54px;
+ font-size: 16px !important;
+ }
+
+ 
+ .energy_percent{
+ font-size: 11px;
+ }
+ 
+ .form-control-sketch_smaller_ipad{
+ width: 15px !important;
+ font-size: 8px !important;
+ }
+ 
+ .form-control-sketch_small_ipad{
+  width: 22px !important;
+ font-size: 9px !important;
+ }
+
+ 
+ 
+ 
+ 
+ 
+/* Start after sketch page Special task box css */  
+.task_item_top_sketch {
+    height: 35%;
+    min-height: 35%;
+    padding: 5% 1px 0 !important;
+}
+/*  .task_item_top_sketch {
+  	min-height: 23px;
+ } */
+ 
+ .task_item_botm{
+ height: 78%;
+ padding: 5px !important
+ }
+ 
+ 
+ 
+ 
+ .task_item_top_sketch .task{
+ font-size: 9px;
+ line-height: 23px;
+ width: 17% !important;
+ font-weight: normal;
+ }
+ .task_item_top_sketch .task_smaller{
+ font-size: 7px !important;
+ line-height: 21px;
+ width: 25px !important;
+ }
+ .task_item_top_sketch .task_middle{
+ font-size: 12px;
+ line-height: 23px;
+ width: 27% !important;
+ }
+ 
+  .task_item_top_sketch .energy{
+    font-size: 10px;
+    line-height: 23px;
+    text-align: center;
+    width: 35% !important;
+}
+ .task_item_top_sketch .energy_smaller {
+    font-size: 7px;
+    line-height: 23px;
+    text-align: center;
+    width: 42% !important;
+    text-align: right;
+}
+ .task_item_top_sketch .energy_small{
+    font-size: 7px;
+    line-height: 23px;
+    text-align: center;
+    width: 50% !important;
+}
+.task_item_top_sketch .energy_middle{
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    width: 35% !important;
+}
+.task_item_botm_sketch{
+	padding:1px !important; 
+    height: 40%;
+    min-height: 40%;
+}
+
+.task_item_top_sketch .energy_bigger{
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    width: 41% !important;
+}
+
+
+
+
+
+ .task_item_top_sketch .form-control-sketch_larger{
+  width: 32px;
+ font-size: 16px !important;
+ }
+ 
+  /* .additional_area .form-control-additional{
+  height: 100%;
+  font-size: 100%;
+  } */
+ 
+ .additional_area .form-control-additional_smaller{
+ font-size: 7px;
+ padding: 0;
+ }
+ 
+ 
+  /* End after sketch page special task box css */
+ 
+ 
+
+.cross img{
+width: 16px;
+height: auto;	
+} 
+
+.additional_area{
+    min-height: 24%;
+    padding: 1px !important; 
+    height: 25%;
+}
+.person_icon {
+    height: 85%;
+    width: 15%;
+    padding: 0 3px 0 0;
+    margin-right: 0;
+    /*max-width: 25px;*/
+}
+
+.additional_area .form-control-additional {
+    font-size: 100%;
+    height: 100% !important;
+    padding: 1% 2% !important;
+    width: 65% !important;
+}
+ 
+ .additional_area .form-control-additional_smaller{
+ font-size: 7px;
+ padding: 0;
+ }
+
+
+.form-control-additional{
+    width: 70%;
+    height: auto;
+}
+
+ .task_item_top .task_smaller_ipad{
+	width: 20% !important;
+}
+
+/* .task{
+	border: 1px solid red;
+}
+.energy{
+	border: 1px solid green;
+} */
+
+ .task_item_top .task_ten-fiveteen{
+	width: 15% !important;
+	font-size: 8px;
+}
+
+.cross{
+	cursor: pointer;
+    display: block;
+    position: absolute;
+    right: -4px;
+    text-align: center;
+    top: -8px;
+    z-index: 0;
+} 
+
+.oval_small .delete_element {
+    cursor: pointer;
+    height: 23px;
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    top: -19px;
+    width: 24px;
+    z-index: 90;
+} 
+ 
+.plus_sign_small .delete_element {
+    cursor: pointer;
+    height: 24px;
+    position: absolute;
+    right: 4px;
+    text-align: center;
+    top: -25px;
+    width: 24px;
+    z-index: 90;
+}
+
+.up_triangle_small .delete_element{
+	 cursor: pointer;
+    position: absolute;
+    right: -7px;
+    text-align: center;
+    top: -22px;
+    z-index: 90;
+    width: 24px;
+    height: 23px;
+}
+.form-control-additional_small {
+	width: 105px;
+}
+.form-control-additional_smaller {
+	width: 105px;
+}
+.form-control-additional_middle {
+	width: 206px;
+}
+.form-control-additional_large {
+	width: 265px;
+}
+.form-control-additional_larger {
+	width: 308px;
+}
+
+
+
+
+/* 
+.input-sm_custom {
+    min-width: 23px !important;
+} 
+ */
+
+
+ 
+
+/*  BS top area css   */
+
+/* upto 9 value css area */
+.bs_upto_9 .task_item_top {
+	height: 26% !important;
+	min-height: 26% !important;
+}
+.bs_upto_9 .task_item_botm {
+	height: 74% !important;
+	min-height: 74% !important;
+}
+.bs_upto_9 .task_item_top .task_smaller {
+    font-size: 8px !important;
+    line-height: 25px !important;;
+    width: 22% !important;
+}
+.bs_upto_9 .task_item_top .energy_smaller {
+    font-size: 9px;
+    line-height: 25px;
+    text-align: center;
+    width: 50% !important;
+}
+.bs_upto_9 .energy_field {
+    width: 18.667% !important;
+}
+.bs_upto_9 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+
+.bs_upto_9 .input-sm_custom {
+	font-size: 10px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+}
+.bs_upto_9 .energy_percent {
+    font-size: 9px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+} 
+
+/* upto 10 value css area */
+
+.bs_upto_10 .task_item_top {
+	height: 24% !important;
+	min-height: 24% !important;
+}
+.bs_upto_10 .task_item_botm {
+	height: 76% !important;
+	min-height: 76% !important;
+}
+.bs_upto_10 .task_item_top .task_smaller {
+    font-size: 9px !important;
+    line-height: 25px !important;;
+    width: 23% !important;
+}
+.bs_upto_10 .task_item_top .energy_small {
+    font-size: 9px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 47% !important;
+}
+.bs_upto_10 .energy_field {
+    width: 19.667% !important;
+}
+.bs_upto_10 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+.bs_upto_10 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+} 
+.bs_upto_10 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+} 
+
+.bs_upto_10 .ui-resizable-handle {
+  bottom: -2px !important;
+ }
+
+
+/* upto 15 value css area */
+.bs_upto_15 .task_item_top {
+	height: 23% !important;
+	min-height: 23% !important;
+}
+.bs_upto_15 .task_item_botm {
+	height: 77% !important;
+	min-height: 77% !important;
+}
+.bs_upto_15 .task_item_top .task{
+    font-size: 10px !important;
+    line-height: 25px !important;;
+    width: 22% !important;
+}
+.bs_upto_15 .task_item_top .energy_small {
+    font-size: 9px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 49% !important;
+}
+.bs_upto_15 .energy_field {
+    width: 19.667% !important;
+}
+.bs_upto_15 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+.bs_upto_15 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 18px !important;
+    width: 18px !important;
+} 
+.bs_upto_15 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+} 
+
+
+/* upto 20 value css area */
+
+.bs_upto_20 .task_item_top {
+	height: 23% !important;
+	min-height: 23% !important;
+}
+.bs_upto_20 .task_item_botm {
+	height: 77% !important;
+	min-height: 77% !important;
+}
+.bs_upto_20 .task_item_top .task_smaller {
+    font-size: 11px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_20 .task_item_top .energy_small {
+    font-size: 10px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 58% !important;
+}
+.bs_upto_20 .energy_field {
+    width: 16.667% !important;
+}
+.bs_upto_20 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+.bs_upto_20 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_20 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 25 value css area */
+
+.bs_upto_25 .task_item_top {
+	height: 22% !important;
+	min-height: 22% !important;
+}
+.bs_upto_25 .task_item_botm {
+	height: 78% !important;
+	min-height: 78% !important;
+}
+.bs_upto_25 .task_item_top .task_smaller {
+    font-size: 11px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_25 .task_item_top .energy_small {
+    font-size: 10px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 58% !important;
+}
+.bs_upto_25 .energy_field {
+    width: 14.667% !important;
+}
+.bs_upto_25 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+.bs_upto_25 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_25 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 30 value css area */
+
+.bs_upto_30 .task_item_top {
+	height: 21% !important;
+	min-height: 21% !important;
+}
+.bs_upto_30 .task_item_botm {
+	height: 79% !important;
+	min-height: 79% !important;
+}
+.bs_upto_30 .task_item_top .task {
+    font-size: 11px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_30 .task_item_top .energy {
+    font-size: 10px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 52% !important;
+}
+.bs_upto_30 .energy_field {
+    width: 14.667% !important;
+}
+.bs_upto_30 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_30 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 35 value css area */
+
+.bs_upto_35 .task_item_top {
+	height: 20% !important;
+	min-height: 20% !important;
+}
+.bs_upto_35 .task_item_botm {
+	height: 80% !important;
+	min-height: 80% !important;
+}
+.bs_upto_35 .task_item_top .task {
+    font-size: 12px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_35 .task_item_top .energy {
+    font-size: 12px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 53% !important;
+}
+.bs_upto_35 .energy_field {
+    width: 13.667% !important;
+}
+.bs_upto_35 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 26px !important;
+}
+.bs_upto_35 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 40 value css area */
+
+.bs_upto_40 .task_item_top {
+	height: 19% !important;
+	min-height: 19% !important;
+}
+.bs_upto_40 .task_item_botm {
+	height: 81% !important;
+	min-height: 81% !important;
+}
+.bs_upto_40 .task_item_top .task {
+    font-size: 12px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_40 .task_item_top .energy {
+    font-size: 12px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 53% !important;
+}
+.bs_upto_40 .energy_field {
+    width: 13.667% !important;
+}
+.bs_upto_40 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_40 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 28px !important;
+    line-height: 28px !important;
+}
+
+/* upto 45 value css area */
+
+.bs_upto_45 .task_item_top {
+	height: 18% !important;
+	min-height: 18% !important;
+}
+.bs_upto_45 .task_item_botm {
+	height: 82% !important;
+	min-height: 82% !important;
+}
+.bs_upto_45 .task_item_top .task {
+    font-size: 12px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_45 .task_item_top .energy {
+    font-size: 12px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 53% !important;
+}
+.bs_upto_45 .energy_field {
+    width: 14% !important;
+}
+.bs_upto_45 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_45 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 28px !important;
+    line-height: 28px !important;
+}
+
+/* upto 50 value css area */
+
+.bs_upto_50 .task_item_top {
+	height: 17% !important;
+	min-height: 17% !important;
+}
+.bs_upto_50 .task_item_botm {
+	height: 83% !important;
+	min-height: 83% !important;
+}
+.bs_upto_50 .task_item_top .task {
+    font-size: 15px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_50 .task_item_top .energy {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 51% !important;
+}
+.bs_upto_50 .energy_field {
+    width: 13.667% !important;
+}
+.bs_upto_50 .input-sm_custom {
+	font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_50 .energy_percent {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 55 value css area */
+
+.bs_upto_55 .task_item_top {
+	height: 16% !important;
+	min-height: 16% !important;
+}
+.bs_upto_55 .task_item_botm {
+	height: 84% !important;
+	min-height: 84% !important;
+}
+.bs_upto_55 .task_item_top .task {
+    font-size: 16px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_55 .task_item_top .energy {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 54% !important;
+}
+.bs_upto_55 .energy_field {
+    width: 10.667% !important;
+}
+.bs_upto_55 .input-sm_custom {
+	font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_55 .energy_percent {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 60 value css area */
+
+.bs_upto_60 .task_item_top {
+	height: 16% !important;
+	min-height: 16% !important;
+}
+.bs_upto_60 .task_item_botm {
+	height: 84% !important;
+	min-height: 84% !important;
+}
+.bs_upto_60 .task_item_top .task {
+    font-size: 14px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_60 .task_item_top .energy {
+    font-size: 14px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 57% !important;
+}
+.bs_upto_60 .energy_field {
+    width: 9.667% !important;
+}
+.bs_upto_60 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_60 .energy_percent {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+/* upto 65 value css area */
+
+.bs_upto_65 .task_item_top {
+	height: 16% !important;
+	min-height: 16% !important;
+}
+.bs_upto_65 .task_item_botm {
+	height: 84% !important;
+	min-height: 84% !important;
+}
+.bs_upto_65 .task_item_top .task {
+    font-size: 14px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_65 .task_item_top .energy {
+    font-size: 14px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 56% !important;
+}
+.bs_upto_65 .energy_field {
+    width: 9.667% !important;
+}
+.bs_upto_65 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_65 .energy_percent {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 70 value css area */
+
+.bs_upto_70 .task_item_top {
+	height: 15% !important;
+	min-height: 15% !important;
+}
+.bs_upto_70 .task_item_botm {
+	height: 85% !important;
+	min-height: 85% !important;
+}
+.bs_upto_70 .task_item_top .task {
+    font-size: 14px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_70 .task_item_top .energy {
+    font-size: 14px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 57% !important;
+}
+.bs_upto_70 .energy_field {
+    width: 8.667% !important;
+}
+.bs_upto_70 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_70 .energy_percent {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 75 value css area */
+
+.bs_upto_75 .task_item_top {
+	height: 14% !important;
+	min-height: 14% !important;
+}
+.bs_upto_75 .task_item_botm {
+	height: 86% !important;
+	min-height: 86% !important;
+}
+.bs_upto_75 .task_item_top .task {
+    font-size: 14px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_75 .task_item_top .energy {
+    font-size: 14px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 58% !important;
+}
+.bs_upto_75 .energy_field {
+    width: 8.667% !important;
+}
+.bs_upto_75 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_75 .energy_percent {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 80 value css area */
+
+.bs_upto_80 .task_item_top {
+	height: 13% !important;
+	min-height: 13% !important;
+}
+.bs_upto_80 .task_item_botm {
+	height: 87% !important;
+	min-height: 87% !important;
+}
+.bs_upto_80 .task_item_top .task {
+    font-size: 15px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_80 .task_item_top .energy {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 58% !important;
+}
+.bs_upto_80 .energy_field {
+    width: 8.667% !important;
+}
+.bs_upto_80 .input-sm_custom {
+	font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_80 .energy_percent {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 85 value css area */
+
+.bs_upto_85 .task_item_top {
+	height: 13% !important;
+	min-height: 13% !important;
+}
+.bs_upto_85 .task_item_botm {
+	height: 87% !important;
+	min-height: 87% !important;
+}
+.bs_upto_85 .task_item_top .task {
+    font-size: 15px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_85 .task_item_top .energy {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 58% !important;
+}
+.bs_upto_85 .energy_field {
+    width: 8.667% !important;
+}
+.bs_upto_85 .input-sm_custom {
+	font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_85 .energy_percent {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/* upto 90 value css area */
+
+.bs_upto_90 .task_item_top {
+	height: 12% !important;
+	min-height: 12% !important;
+}
+.bs_upto_90 .task_item_botm {
+	height: 88% !important;
+	min-height: 88% !important;
+}
+.bs_upto_90 .task_item_top .task {
+    font-size: 15px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.bs_upto_90 .task_item_top .energy {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 58% !important;
+}
+.bs_upto_90 .energy_field {
+    width: 8.667% !important;
+}
+.bs_upto_90 .input-sm_custom {
+	font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    width: 24px !important;
+}
+.bs_upto_90 .energy_percent {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+
+/*  AS top area css   */
+
+/* upto 9 value css area */
+
+.upto_9 .task_item_top_sketch {
+	height: 27% !important;
+	min-height: 27% !important;
+}
+.upto_9 .task_item_botm_sketch {
+	height: 48% !important;
+	min-height: 48% !important;
+}
+
+.upto_9 .task_item_top_sketch .task_smaller {
+    font-size: 8px !important;
+    line-height: 25px !important;;
+    width: 22% !important;
+}
+.upto_9 .task_item_top_sketch .energy_smaller {
+    font-size: 9px;
+    line-height: 25px;
+    text-align: center;
+    width: 46% !important;
+}
+.upto_9 .energy_field {
+    width: 19.667% !important;
+}
+.upto_9 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+
+.upto_9 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 95px !important;
+	height: 95% !important;
+	line-height: 10px !important;
+}
+
+.upto_9 .energy_percent {   
+    height: 23px !important;
+    line-height: 23px !important;
+} 
+/* upto 10 value css area */
+
+.upto_10 .task_item_top_sketch {
+	height: 27% !important;
+	min-height: 27% !important;
+}
+.upto_10 .task_item_botm_sketch {
+	height: 48% !important;
+	min-height: 48% !important;
+}
+
+.upto_10 .task_item_top_sketch *{
+	padding: 0 !important
+}
+
+.upto_10 .task_item_top_sketch .task {
+    font-size: 9px !important;
+    line-height: 25px !important;;
+    width: 23% !important;
+}
+.upto_10 .task_item_top_sketch .energy {
+    font-size: 9px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 47% !important;
+}
+.upto_10 .energy_field {
+    width: 21.667% !important;
+}
+.upto_10 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+.upto_10 .input-sm_custom {
+	font-size: 9px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+    width: 21px !important;
+}
+.upto_10 .energy_percent {
+    font-size: 10px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+} 
+.upto_10 .ui-resizable-se{
+    bottom: 0px !important;
+} 
+ 
+.upto_10 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 106px !important;
+	height: 95% !important;
+	line-height: 10px !important;
+}
+
+/* upto 15 value css area */
+
+.upto_15 .task_item_top_sketch {
+	height: 25% !important;
+	min-height: 25% !important;
+}
+.upto_15 .task_item_botm_sketch {
+	height: 50% !important;
+	min-height: 50% !important;
+}
+
+.upto_15 .task_item_top_sketch .task{
+    font-size: 10px !important;
+    line-height: 25px !important;;
+    width: 22% !important;
+}
+.upto_15 .task_item_top_sketch .energy_small {
+    font-size: 10px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 51% !important;
+}
+.upto_15 .energy_field {
+    width: 17.667% !important;
+}
+.upto_15 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+.upto_15 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 18px !important;
+    width: 21px !important;
+} 
+.upto_15 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+} 
+
+.upto_15 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 110px !important;
+	height: 95% !important;
+	line-height: 10px !important;
+}
+
+/* upto 20 value css area */
+
+.upto_20 .task_item_top_sketch {
+	height: 24% !important;
+	min-height: 24% !important;
+}
+.upto_20 .task_item_botm_sketch {
+	height: 51% !important;
+	min-height: 51% !important;
+}
+
+.upto_20 .task_item_top_sketch .task {
+    font-size: 11px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_20 .task_item_top_sketch .energy {
+    font-size: 10px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 50% !important;
+}
+.upto_20 .energy_field {
+    width: 16.667% !important;
+}
+.upto_20 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+.upto_20 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 18px !important;
+    width: 21px !important;
+}
+.upto_20 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+}
+
+.upto_20 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 118px !important;
+	height: 95% !important;
+	line-height: 10px !important;
+}
+
+/* upto 25 value css area */
+
+.upto_25 .task_item_top_sketch {
+	height: 23% !important;
+	min-height: 23% !important;
+}
+.upto_25 .task_item_botm_sketch {
+	height: 52% !important;
+	min-height: 52% !important;
+}
+
+.upto_25 .task_item_top_sketch .task {
+    font-size: 11px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_25 .task_item_top_sketch .energy {
+    font-size: 10px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 47% !important;
+}
+.upto_25 .energy_field {
+    width: 16.667% !important;
+}
+.upto_25 .form-control-sketch_smaller {
+    font-size: 8px !important;
+    width: 15px !important;
+}
+.upto_25 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 18px !important;
+    width: 21px !important;
+}
+.upto_25 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+}
+
+.upto_25 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 126px !important;
+	height: 95% !important;
+	line-height: 10px !important;
+}
+/* upto 30 value css area */
+
+.upto_30 .task_item_top_sketch {
+	height: 22% !important;
+	min-height: 22% !important;
+}
+.upto_30 .task_item_botm_sketch {
+	height: 53% !important;
+	min-height: 53% !important;
+}
+.upto_30 .task_item_top_sketch .task {
+    font-size: 11px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_30 .task_item_top_sketch .energy {
+    font-size: 10px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 47% !important;
+}
+.upto_30 .energy_field {
+    width: 16.667% !important;
+}
+.upto_30 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 23px !important;
+}
+.upto_30 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+.upto_30 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 137px !important;
+	height: 95% !important;
+}
+/* upto 35 value css area */
+
+.upto_35 .task_item_top_sketch {
+	height: 21% !important;
+	min-height: 21% !important;
+}
+.upto_35 .task_item_botm_sketch {
+	height: 54% !important;
+	min-height: 54% !important;
+}
+
+.upto_35 .task_item_top_sketch .task {
+    font-size: 12px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_35 .task_item_top_sketch .energy {
+    font-size: 12px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 50% !important;
+}
+.upto_35 .energy_field {
+    width: 14.667% !important;
+}
+.upto_35 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 23px !important;
+}
+.upto_35 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+.upto_35 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 145px !important;
+	height: 95% !important;
+}
+/* upto 40 value css area */
+
+.upto_40 .task_item_top_sketch {
+	height: 21% !important;
+	min-height: 21% !important;
+}
+.upto_40 .task_item_botm_sketch {
+	height: 54% !important;
+	min-height: 54% !important;
+}
+.upto_40 .task_item_top_sketch .task {
+    font-size: 12px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_40 .task_item_top_sketch .energy {
+    font-size: 12px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 50% !important;
+}
+.upto_40 .energy_field {
+    width: 14.667% !important;
+}
+.upto_40 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_40 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+}
+
+.upto_40 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 152px !important;
+	height: 95% !important;
+}
+/* upto 45 value css area */
+
+.upto_45 .task_item_top_sketch {
+	height: 20% !important;
+	min-height: 20% !important;
+}
+.upto_45 .task_item_botm_sketch {
+	height: 55% !important;
+	min-height: 55% !important;
+}
+.upto_45 .task_item_top_sketch .task {
+    font-size: 12px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_45 .task_item_top_sketch .energy {
+    font-size: 12px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 50% !important;
+}
+.upto_45 .energy_field {
+    width: 14.667% !important;
+}
+.upto_45 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_45 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+}
+
+.upto_45 .form-control-additional {
+	font-size: 10px;
+	padding: 0;
+	width: 163px !important;
+	height: 95% !important;
+}
+/* upto 50 value css area */
+
+.upto_50 .task_item_top_sketch {
+	height: 19% !important;
+	min-height: 19% !important;
+}
+.upto_50 .task_item_botm_sketch {
+	height: 56% !important;
+	min-height: 56% !important;
+}
+.upto_50 .task_item_top_sketch .task {
+    font-size: 15px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_50 .task_item_top_sketch .energy {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 50% !important;
+}
+.upto_50 .energy_field {
+    width: 14.667% !important;
+}
+.upto_50 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_50 .energy_percent {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+
+.upto_50 .form-control-additional {
+	font-size: 12px;
+	padding: 0;
+	width: 176px !important;
+	height: 95% !important;
+}
+/* upto 55 value css area */
+
+.upto_55 .task_item_top_sketch {
+	height: 18% !important;
+	min-height: 18% !important;
+}
+.upto_55 .task_item_botm_sketch {
+	height: 57% !important;
+	min-height: 57% !important;
+}
+.upto_55 .task_item_top_sketch .task {
+    font-size: 16px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_55 .task_item_top_sketch .energy {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 50% !important;
+}
+.upto_55 .energy_field {
+    width: 14.667% !important;
+}
+.upto_55 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_55 .energy_percent {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+
+.upto_55 .form-control-additional {
+	font-size: 12px;
+	padding: 0;
+	width: 182px !important;
+	height: 95% !important;
+}
+/* upto 60 value css area */
+
+.upto_60 .task_item_top_sketch {
+	height: 18% !important;
+	min-height: 18% !important;
+}
+.upto_60 .task_item_botm_sketch {
+	height: 57% !important;
+	min-height: 57% !important;
+}
+.upto_60 .task_item_top_sketch .task {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    width: 25% !important;
+}
+.upto_60 .task_item_top_sketch .energy {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 50% !important;
+}
+.upto_60 .energy_field {
+    width: 14.667% !important;
+}
+.upto_60 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_60 .energy_percent {
+    font-size: 18px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+
+.upto_60 .form-control-additional {
+	font-size: 14px;
+	padding: 0;
+	width: 190px !important;
+	height: 95% !important;
+}
+/* upto 65 value css area */
+
+.upto_65 .task_item_top_sketch {
+	height: 17% !important;
+	min-height: 17% !important;
+}
+.upto_65 .task_item_botm_sketch {
+	height: 58% !important;
+	min-height: 58% !important;
+}
+.upto_65 .task_item_top_sketch .task {
+    font-size: 19px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_65 .task_item_top_sketch .energy {
+    font-size: 19px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 52% !important;
+}
+.upto_65 .energy_field {
+    width: 12.667% !important;
+}
+.upto_65 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_65 .energy_percent {
+    font-size: 19px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+
+.upto_65 .form-control-additional {
+	font-size: 14px;
+	padding: 0;
+	width: 200px !important;
+	height: 95% !important;
+}
+/* upto 70 value css area */
+
+.upto_70 .task_item_top_sketch {
+	height: 17% !important;
+	min-height: 17% !important;
+}
+.upto_70 .task_item_botm_sketch {
+	height: 58% !important;
+	min-height: 58% !important;
+}
+.upto_70 .task_item_top_sketch {
+	height: 16% !important;
+	min-height: 16% !important;
+}
+.upto_70 .task_item_botm_sketch {
+	height: 59% !important;
+	min-height: 56% !important;
+}
+.upto_70 .task_item_top_sketch .task {
+    font-size: 18px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_70 .task_item_top_sketch .energy {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 54% !important;
+    padding-right:2px;
+}
+.upto_70 .energy_field {
+    width: 10.667% !important;
+}
+.upto_70 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_70 .energy_percent {
+    font-size: 18px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+.upto_70 .form-control-additional {
+	font-size: 14px;
+	padding: 0;
+	width: 210px !important;
+	height: 95% !important;
+}
+
+/* upto 75 value css area */
+
+.upto_75 .task_item_top_sketch {
+	height: 16% !important;
+	min-height: 16% !important;
+}
+.upto_75 .task_item_botm_sketch {
+	height: 59% !important;
+	min-height: 59% !important;
+}
+
+.upto_75 .task_item_top_sketch .task {
+    font-size: 18px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_75 .task_item_top_sketch .energy {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 54% !important;
+}
+.upto_75 .energy_field {
+    width: 11.667% !important;
+}
+.upto_75 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_75 .energy_percent {
+    font-size: 18px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+.upto_75 .form-control-additional {
+	font-size: 14px;
+	padding: 0;
+	width: 220px !important;
+	height: 95% !important;
+}
+/* upto 80 value css area */
+
+.upto_80 .task_item_top_sketch {
+	height: 16% !important;
+	min-height: 16% !important;
+}
+.upto_80 .task_item_botm_sketch {
+	height: 59% !important;
+	min-height: 59% !important;
+}
+.upto_80 .task_item_top_sketch .task {
+    font-size: 18px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_80 .task_item_top_sketch .energy {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 54% !important;
+}
+.upto_80 .energy_field {
+    width: 11.667% !important;
+}
+.upto_80 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_80 .energy_percent {
+    font-size: 18px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+.upto_80 .form-control-additional {
+	font-size: 14px;
+	padding: 0;
+	width: 230px !important;
+	height: 95% !important;
+}
+
+/* upto 85 value css area */
+
+.upto_85 .task_item_top_sketch {
+	height: 15% !important;
+	min-height: 15% !important;
+}
+.upto_85 .task_item_botm_sketch {
+	height: 60% !important;
+	min-height: 60% !important;
+}
+.upto_85 .task_item_top_sketch .task {
+    font-size: 18px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_85 .task_item_top_sketch .energy {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 54% !important;
+}
+.upto_85 .energy_field {
+    width: 11.667% !important;
+}
+.upto_85 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_85 .energy_percent {
+    font-size: 18px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+
+.upto_85 .form-control-additional {
+	font-size: 14px;
+	padding: 0;
+	width: 242px !important;
+	height: 95% !important;
+}
+
+/* upto 90 value css area */
+
+.upto_90 .task_item_top_sketch {
+	height: 15% !important;
+	min-height: 15% !important;
+}
+.upto_90 .task_item_botm_sketch {
+	height: 60% !important;
+	min-height: 60% !important;
+}
+.upto_90 .task_item_top_sketch .task {
+    font-size: 18px !important;
+    line-height: 25px !important;;
+    width: 25% !important;
+}
+.upto_90 .task_item_top_sketch .energy {
+    font-size: 18px !important;
+    line-height: 25px !important;
+    text-align: right !important;
+    width: 55% !important;
+}
+.upto_90 .energy_field {
+    width: 10.667% !important;
+}
+.upto_90 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    width: 25px !important;
+}
+.upto_90 .energy_percent {
+    font-size: 18px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+} 
+.upto_90 .form-control-additional {
+	font-size: 14px;
+	padding: 0;
+	width: 252px !important;
+	height: 95% !important;
+}
+.fancybox-close{
+	z-index: 999999 !important;
+	top: -20px !important;
+}
+.fancybox-outer, .fancybox-inner{
+	border-radius:0 !important; 
+}
+
+.ui-resizable-e{
+	width: 25px !important;
+	right: -30px !important;
+}
+.ui-resizable-s{
+	height: 25px !important;
+    bottom: -31px !important;
+	}
+
+
+/* .plus_sign_small, .oval_small, .up_triangle_small {
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;;
+}
+ */
+
+
+.plus_sign_small {
+    height: 80px;
+    line-height: 50px;
+    margin-top: 6px;
+    width:80px;
+	float: left;
+	margin-left: -5px;
+    margin-right: 7px;
+	
+}
+.plus_sign_small_span p{
+    color: #000000;
+    font-size: 10px;
+    left: 0;
+    width: 100%;
+    line-height: 9px;
+}
+ .oval_small_span p {
+    color: #000000;
+    font-size: 10px;
+    left: 0;
+    width: 100%;
+    line-height: 9px;
+}
+.up_triangle_small_span p{
+    color: #000000;
+    font-size: 10px;
+    left: 0;
+    width: 100%;
+    line-height: 9px;
+}
+
+.oval_small {
+    height: 76px;
+    line-height: 55px;
+    width: 85px;
+	float: left;
+	margin-left: -7px;
+    margin-right: 8px;
+}
+.up_triangle_small {
+    height: 82px;
+    line-height: 50px;
+    margin-top: 6px;
+    width: 87px;
+	float: left;
+	margin-left: -10px;
+    margin-right: 6px;
+}
+.common_div {
+  /*    padding-left: 26px;  */
+     padding-top: 5px; 
+}
+
+
+.single_task_item {
+/* margin:10px; */
+/* margin: 20px 10px 40px; */
+margin-top: 18px;  	
+margin-bottom: 18px;
+margin-left: 24px;
+margin-right: 16px;	 
+}
+
+.single_task_item_sketch{
+/* margin:10px; */
+/* margin: 20px 10px 40px; */
+margin-top: 18px;  	
+margin-bottom: 18px;
+margin-left: 24px;
+margin-right: 16px;	 
+}
+
+.single_task_item .form-control-sketch {
+	margin-top: 0px !important;
+}
+
+.single_task_item_sketch .form-control-sketch {
+	margin-top: -2px !important;
+}
+
+.single_task_item .energy_percent{
+	margin-top: 1px;
+	font-weight: bold;
+}
+
+.small_font {
+	padding: 0;
+	font-size: 7px !important;
+    line-height: 7px;
+}
+.smaller_task_font {
+	padding: 0;
+	font-size: 7px !important;
+    line-height: 8px;
+}
+
+.small_task_font {
+	padding: 0;
+	font-size: 10px !important;
+    line-height: 11px;
+}
+
+.large_task_font {
+	padding: 0;
+	font-size: 11px !important;
+}
+.larger_task_font {
+	padding: 0;
+	font-size: 17px !important;
+	line-height: 17px !important;
+}
+.smaller_task_font_bs {
+	font-size: 6px !important;
+    line-height: 10px;
+    padding: 0;
+}
+
+.small_task_font_bs {
+	font-size: 10px !important;
+    line-height: 14px;
+    padding: 0;
+}
+
+.large_task_font_bs {
+	padding: 0;
+	font-size: 14px !important;
+}
+.larger_task_font_bs {
+	padding: 0;
+	font-size: 14px !important;
+}
+
+
+/*  BS top section css  */
+
+
+.task_item_top .energy{
+  text-align: right !important;
+}
+
+/* .energy{
+  border: 1px red solid;
+}
+.energy_field{
+	border:1px green solid;
+}
+.input-sm_custom{
+	border:1px black solid;
+	opacity:0.5;
+} */   
+ .single_task_item_sketch .task_item_top_sketch .input-sm_custom {
+    width: 28px !important;
+} 
+.single_task_item .energy_field .input-sm_custom{
+	width: 23px !important;
+}
+
+.bs_upto_9 .energy_field .input-sm_custom{
+	width: 17px !important;
+}
+
+.single_task_item_sketch .task_item_top_sketch .input-sm_custom {
+    width: 26px !important;
+}
+.upto_9 .task_item_top_sketch .input-sm_custom {
+    width: 15px !important;
+}
+.upto_10 .task_item_top_sketch .input-sm_custom {
+    width: 23px !important;
+}
+.bs_upto_9 .task_item_top .energy {
+    width: 50% !important;
+}
+.upto_15 .task_item_top_sketch .input-sm_custom {
+    width: 23px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.upto_15 .task_item_top_sketch .energy{
+	padding-right: 0 !important;
+}
+.upto_15 .task_item_top_sketch .energy_field{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+/* new changes inter QA defect fix on 30.07.2014 */
+.form_area_middle .Questionaire{
+	overflow-y: auto !important;
+	overflow-x: hidden !important;
+}
+.horizontal_oval {
+    left: 3%;
+    top: -8px;
+}
+
+.bs_upto_20 .task_item_top .energy {
+    width: 56% !important;
+}
+.upto_20 .task_item_top_sketch .input-sm_custom {
+    width: 23px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.upto_20 .task_item_top_sketch .energy{
+	padding-right: 0 !important;
+}
+.upto_20 .task_item_top_sketch .energy_field{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.upto_25 .task_item_top_sketch .energy{
+	padding-right: 0 !important;
+}
+.upto_25 .task_item_top_sketch .energy_field{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.value_outer_div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#value_pageWrap .oval{
+	margin-right: 10px;
+}
+
+/* Dated : 25.07.2014
+   Added to implement New change request Edit After Sketch cancel button positioning */
+.cancel_btn {
+    left: 70%;
+    position: absolute;
+    top: 0 !important;
+}
+
+.single_task_item {
+	min-width: 110px;   
+	min-height: 110px;   
+}
+
+.lock_single_task_item {
+	min-width: 110px;   
+	min-height: 110px;   
+}
+
+.single_task_item_sketch{
+	min-width: 110px;   
+	min-height: 110px;
+}
+
+.lock_single_task_item_sketch{
+	min-width: 110px;   
+	min-height: 110px;
+}
+/* Dated : 04.08.2014
+   Added to implement strength value psssion text centre */
+.oval_small_span {
+    height: 24px;
+    left: 1%;
+    top: 30%;
+    width: 80px;
+}
+.plus_sign_small_span{
+	height: 26px;
+    left: 1%;
+    top: 30%;
+    width: 86px;
+}
+.up_triangle_small_span{
+	height: 32px;
+    left: 0%;
+    top: 30%;
+    width: 90px;	
+}
+
+/* .horizontal_oval_active .speech-bubble{
+	padding-top: 4px;
+	padding-left:2px;
+} */
+/* .horizontal_oval_active .speech-bubble textarea{
+    text-indent: 24px;
+    line-height: 1.4em; 
+} */
+
+/* Dated : 14.08.2014
+   Added to new landing page */
+.video-section{ 
+    width: 90%;
+}
+.video-section video{
+	width: 75%;
+	height: 445px;
+}
+.testimonial{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.smaller_task_font_bs_5_1 {
+	font-size: 10px !important;
+    line-height: 10px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_bs_5_2 {
+	font-size: 9px !important;
+    line-height: 9px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_bs_5_3 {
+	font-size: 8px !important;
+    line-height: 8px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_bs_10_1 {
+	font-size: 12px !important;
+    line-height: 12px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_bs_10_2 {
+	font-size: 11px !important;
+    line-height: 11px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_bs_10_3 {
+	font-size: 9px !important;
+    line-height: 9px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_bs_15_1 {
+	font-size: 12px !important;
+    line-height: 12px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_bs_15_2 {
+	font-size: 10px !important;
+    line-height: 10px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_bs_20_1 {
+	font-size: 14px !important;
+    line-height: 15px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_bs_20_2 {
+	font-size: 11px !important;
+     line-height: 11px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_bs_30_1 {
+	font-size: 14px !important;
+    line-height: 15px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_bs_30_2 {
+	font-size: 13px !important;
+    line-height: 14px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_5_1 {
+	font-size: 11px !important;
+    line-height: 11px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_5_2 {
+	font-size: 9px !important;
+    line-height: 9px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_5_3 {
+	font-size: 8px !important;
+    line-height: 8px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_10_1 {
+	font-size: 13px !important;
+    line-height: 13px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_10_2 {
+	font-size: 11px !important;
+    line-height: 11px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_10_3 {
+	font-size: 9px !important;
+    line-height: 9px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_15_1 {
+	font-size: 12px !important;
+    line-height: 12px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_15_2 {
+	font-size: 10px !important;
+    line-height: 10px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_20_1 {
+	font-size: 13px !important;
+    line-height: 13px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_20_2 {
+	font-size: 11px !important;
+    line-height: 11px !important;
+    padding: 0 !important;
+}
+
+.smaller_task_font_30_1 {
+	font-size: 15px !important;
+    line-height: 15px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_30_2 {
+	font-size: 13px !important;
+    line-height: 13px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_40_1 {
+	font-size: 16px !important;
+    line-height: 16px !important;
+    padding: 0 !important;
+}
+.smaller_task_font_40_2 {
+	font-size: 14px !important;
+    line-height: 14px !important;
+    padding: 0 !important;
+}
+
+.smaller_font_additional_common {
+	padding: 0;
+	font-size: 10px !important;
+    line-height: 10px;
+}
+
+.smaller_font_additional_5 {
+	padding: 0;
+	font-size: 9px !important;
+    line-height: 9px;
+}
+.smaller_font_additional_5_1 {	
+	font-size: 10px !important;
+    line-height: 10px !important;
+    padding: 0 !important;
+}
+.smaller_font_additional_5_2 {
+	font-size: 9px !important;
+    line-height: 9px !important;
+    padding: 0 !important;
+}
+
+.smaller_font_additional_10_1 {
+	font-size: 11px !important;
+    line-height: 11px !important;
+    padding: 0 !important;
+}
+.smaller_font_additional_10_2 {
+	font-size: 10px !important;
+    line-height: 10px !important;
+    padding: 0 !important;
+}
+.smaller_font_additional_15 {
+	font-size: 11px !important;
+    line-height: 11px !important;
+    padding: 0 !important;
+}
+
+.smaller_font_additional_20 {
+	font-size: 12px !important;
+	line-height: 12px !important;
+	padding: 0 !important;
+}
+.smaller_font_additional_30 {
+	font-size: 14px !important;
+	line-height: 14px !important;
+	padding: 0 !important;
+}
+
+.smaller_font_additional_40 {
+	font-size: 15px !important;
+	line-height: 15px !important;
+	padding: 0 !important;
+}
+.smaller_font_additional_60 {
+	font-size: 16px !important;
+	line-height: 16px !important;
+	padding: 0 !important;
+}
+
+.lock_single_task_item {
+	border-radius: 10%;
+  	background-color: #FFD64E; 
+  	float: left;
+  	position: relative;
+  	padding:0 !important;
+  	opacity: 0.7; 
+	margin-top: 18px;  	
+	margin-bottom: 18px;
+	margin-left: 24px;
+	margin-right: 16px;	 
+}
+
+.lock_single_task_item .task_item_top {
+	background-color: #FDE183 !important; 	
+}
+
+.lock_single_task_item .task_item_botm {
+	background-color: #FDE183 !important; 	
+}
+
+.lock_single_task_item_sketch {		
+	border-radius: 10%;
+  	background-color: #BCED91;
+  	float: left;
+  	position: relative;  	
+  	padding:0 !important;	
+   	opacity: 0.7; 
+   	margin-top: 18px;  	
+	margin-bottom: 18px;
+	margin-left: 24px;
+	margin-right: 16px;
+	min-width: 110px;   
+	min-height: 110px;
+}
+
+.lock_single_task_item_sketch .task_item_top_sketch {
+	background-color: #B6C98B !important;
+}
+
+.lock_single_task_item_sketch .task_item_botm_sketch {
+	background-color: #B6C98B !important;
+}
+
+.energy_lock {
+	 background-color: #EBEEF0 !important; 
+}
+.lock_unlock_img {
+	height: 18px;
+	width: 18px;
+}
+
+.clickable_element_1 {
+    top: -11px !important;
+    left: 45px !important; 
+}
+
+.clickable_element_2 {
+    top: 12px !important;
+    left: -10px !important; 
+}
+
+.role_text {
+	
+	/******* ROLE FRAME *******/
+	font-size: 15px;
+	left: 5px; 
+
+}
+.speech-bubble {
+	
+	/***** ROLE FRAME *****/
+    padding: 5px;
+	min-width: 15% !important;
+	/* max-width : 28% !important;   */
+	min-height: 90px;
+	max-height: 110px;
+}
+
+.speech-bubble textarea{
+	
+	}
+/********Change 02.02.15**********/
+.tooltip1{
+	width: 175px !important;
+	margin-right: 45px !important;
+}
+
+.tooltipText{
+	margin-right: -11% !important;
+}
+
+.ui-icon-gripsmall-diagonal-se {
+    background-position: -81px -224px !important;
+}
+
+.ins_video_box .fancybox-outer, .fancybox-inner {
+	min-height: 200px !important;
+	min-width: 600px !important;
+}
+.ins-page-title {
+	font-size: 20px; 
+	font-weight: normal;
+	color:#00b0f0;
+	text-align: center;
+	padding: 0%;
+}
+
+.ins-video-section {
+	margin-top: -18%;
+}
+.welcome_title{
+    width: 52% !important;
+}
+.login-form-area{
+    width: 47% !important;
+}
+	} /*  css conditional bracket don't use it or delete it :) */

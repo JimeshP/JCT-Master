@@ -1,0 +1,1240 @@
+@media screen and (max-width: 480px) {  
+
+.draw_oval_Shape_area{
+	width:45% !important;
+	/* border:1px solid red; */
+}
+	
+.shape_area{
+	width: 50% !important;
+}	
+.pageWrap_item .single_task_item .task_item_top, .pageWrap_item .single_task_item .task_item_botm {
+	padding: 1px !important;
+    /* border:1px solid red; */
+}	
+.add_task_area{
+	margin: 0 auto !important;
+	width: 100% !important;
+}
+.task_item_botm_sketch textarea.add_task_area_sketch{
+    font-size: 0.5em !important;
+    height: 90% !important;
+}
+.progressBox .progressList li.green{
+    font-size: 13px !important;
+}	
+	
+/* Before Sketch Valuewise css */	
+	
+ /*   value upto 9  */
+ .bs_upto_9 .task_item_top .task{
+   font-size: 5px !important;
+   line-height: 12px !important;
+ }
+.bs_upto_9 .task_item_top .energy{
+	width: 33% !important;
+	font-size: 5px !important;
+    font-weight: normal !important;
+    line-height: 6px !important;
+}
+.bs_upto_9 .task_item_top .input-sm_custom {
+    font-size: 5px !important;
+    width: 10px !important;
+    height: 12px !important;
+    line-height:12px !important;
+}
+.bs_upto_9 .task_item_top .energy_percent {
+    font-size: 5px !important;
+    font-weight: normal !important;
+    height: 12px !important;
+    line-height: 12px !important;
+}
+.bs_upto_9 textarea{
+    font-size: 5px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+.pageWrap_item .bs_upto_9 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_9 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+
+.pageWrap_item .bs_upto_9 .ui-resizable-handle{
+	right: -5px;
+}
+
+
+/*   value upto 10  */ 
+ .bs_upto_10 .task_item_top .task{
+   font-size: 5px !important;
+   line-height: 12px !important;
+ }
+.bs_upto_10 .task_item_top .energy{
+	width: 33% !important;
+	font-size: 5px !important;
+    font-weight: normal !important;
+    line-height: 6px !important;
+}
+.bs_upto_10 .task_item_top .input-sm_custom {
+    font-size: 5px !important;
+    width: 10px !important;
+    height: 12px !important;
+    line-height:12px !important;
+}
+.bs_upto_10 .task_item_top .energy_percent {
+    font-size: 5px !important;
+    font-weight: normal !important;
+    height: 12px !important;
+    line-height: 12px !important;
+}
+
+.bs_upto_10 textarea{
+    font-size: 5px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+
+.pageWrap_item .bs_upto_10 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_10 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+.pageWrap_item .bs_upto_10 .ui-resizable-handle{
+	right: -5px;
+}
+ 
+/*   value upto 15  */ 
+ .bs_upto_15 .task_item_top .task{
+   font-size: 6px !important;
+   line-height: 15px !important;
+ }
+.bs_upto_15 .task_item_top .energy{
+	width: 33% !important;
+	font-size: 6px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+.bs_upto_15 .task_item_top .input-sm_custom {
+    font-size: 5px !important;
+    width: 15px !important;
+    height: 15px !important;
+    line-height:15px !important;
+}
+.bs_upto_15 .task_item_top .energy_percent {
+    font-size: 5px !important;
+    font-weight: normal !important;
+    height: 15px !important;
+    line-height: 15px !important;
+}
+
+.bs_upto_15 textarea{
+    font-size: 6px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+
+.pageWrap_item .bs_upto_15 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_15 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+.pageWrap_item .bs_upto_15 .ui-resizable-handle{
+	right: -5px;
+}
+
+/*   value upto 20  */
+
+.bs_upto_20 .task_item_top .task{
+   font-size: 6px !important;
+   line-height: 15px !important;
+ }
+.bs_upto_20 .task_item_top .energy{
+	width: 33% !important;
+	font-size: 6px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+.bs_upto_20 .task_item_top .input-sm_custom {
+    font-size: 5px !important;
+    width: 15px !important;
+    height: 15px !important;
+    line-height:15px !important;
+}
+.bs_upto_20 .task_item_top .energy_percent {
+    font-size: 5px !important;
+    font-weight: normal !important;
+    height: 15px !important;
+    line-height: 15px !important;
+}
+
+.bs_upto_20 textarea{
+    font-size: 6px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+
+.pageWrap_item .bs_upto_20 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_20 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+
+.pageWrap_item .bs_upto_15 .ui-resizable-handle{
+	right: -4px;
+}
+
+/*   value upto 25  */ 
+.bs_upto_25 .task_item_top .task{
+   font-size: 6px !important;
+   line-height: 15px !important;
+ }
+.bs_upto_25 .task_item_top .energy{
+	width: 33% !important;
+	font-size: 6px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+.bs_upto_25 .task_item_top .input-sm_custom {
+    font-size: 5px !important;
+    width: 15px !important;
+    height: 15px !important;
+    line-height:15px !important;
+}
+.bs_upto_25 .task_item_top .energy_percent {
+    font-size: 5px !important;
+    font-weight: normal !important;
+    height: 15px !important;
+    line-height: 15px !important;
+}
+
+.bs_upto_25 textarea{
+    font-size: 6px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+
+.pageWrap_item .bs_upto_25 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_25 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+
+ /*   value upto 30  */ 
+.bs_upto_30 .task_item_top .task{
+   font-size: 6px !important;
+   line-height: 15px !important;
+ }
+.bs_upto_30 .task_item_top .energy{
+	width: 33% !important;
+	font-size: 6px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+.bs_upto_30 .task_item_top .input-sm_custom {
+    font-size: 5px !important;
+    width: 15px !important;
+    height: 15px !important;
+    line-height:15px !important;
+}
+.bs_upto_30 .task_item_top .energy_percent {
+    font-size: 5px !important;
+    font-weight: normal !important;
+    height: 15px !important;
+    line-height: 15px !important;
+}
+
+.bs_upto_30 textarea{
+    font-size: 6px !important;
+    font-weight: normal !important;
+    line-height: 7px !important;
+}
+
+.pageWrap_item .bs_upto_30 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_30 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+ /*   value upto 35  */ 
+.bs_upto_35 .task_item_top .task{
+   font-size: 8px !important;
+   line-height: 22px !important;
+ }
+.bs_upto_35 .task_item_top .energy{
+	width: 39% !important;
+	font-size: 7px !important;
+    font-weight: normal !important;
+    line-height: 8px !important;
+}
+.bs_upto_35 .task_item_top .input-sm_custom {
+    font-size: 8px !important;
+    width: 18px !important;
+    height: 22px !important;
+    line-height:22px !important;
+}
+.bs_upto_35 .task_item_top .energy_percent {
+    font-size: 8px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+}
+
+.bs_upto_35 textarea{
+    font-size: 8px !important;
+    font-weight: normal !important;
+    line-height: 10px !important;
+}
+
+.pageWrap_item .bs_upto_35 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_35 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+} 
+
+ /*   value upto 40  */ 
+.bs_upto_40 .task_item_top .task{
+   font-size: 9px !important;
+   line-height: 22px !important;
+ }
+.bs_upto_40 .task_item_top .energy{
+	width: 39% !important;
+	font-size: 8px !important;
+    font-weight: normal !important;
+    line-height: 9px !important;
+}
+.bs_upto_40 .task_item_top .input-sm_custom {
+    font-size: 9px !important;
+    width: 18px !important;
+    height: 22px !important;
+    line-height:22px !important;
+}
+.bs_upto_40 .task_item_top .energy_percent {
+    font-size: 8px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+}
+.bs_upto_40 textarea{
+    font-size: 8px !important;
+    font-weight: normal !important;
+    line-height: 10px !important;
+}
+.pageWrap_item .bs_upto_40 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_40 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+} 
+
+ /*   value upto 45  */ 
+ .bs_upto_45 .task_item_top .task{
+   font-size: 9px !important;
+   line-height: 22px !important;
+ }
+.bs_upto_45 .task_item_top .energy{
+	width: 39% !important;
+	font-size: 8px !important;
+    font-weight: normal !important;
+    line-height: 9px !important;
+}
+.bs_upto_45 .task_item_top .input-sm_custom {
+    font-size: 9px !important;
+    width: 18px !important;
+    height: 22px !important;
+    line-height:22px !important;
+}
+.bs_upto_45 .task_item_top .energy_percent {
+    font-size: 8px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+}
+.bs_upto_45 textarea{
+    font-size: 8px !important;
+    font-weight: normal !important;
+    line-height: 10px !important;
+}
+.pageWrap_item .bs_upto_45 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_45 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+ /*   value upto 50  */ 
+ .bs_upto_50 .task_item_top .task{
+   font-size: 9px !important;
+   line-height: 22px !important;
+ }
+.bs_upto_50 .task_item_top .energy{
+	width: 39% !important;
+	font-size: 8px !important;
+    font-weight: normal !important;
+    line-height: 9px !important;
+}
+.bs_upto_50 .task_item_top .input-sm_custom {
+    font-size: 9px !important;
+    width: 18px !important;
+    height: 22px !important;
+    line-height:22px !important;
+}
+.bs_upto_50 .task_item_top .energy_percent {
+    font-size: 8px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+}
+.bs_upto_50 textarea{
+    font-size: 8px !important;
+    font-weight: normal !important;
+    line-height: 10px !important;
+}
+.pageWrap_item .bs_upto_50 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_50 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+ /*   value upto 55  */ 
+ .bs_upto_55 .task_item_top .task{
+   font-size: 10px !important;
+   line-height: 26px !important;
+ }
+.bs_upto_55 .task_item_top .energy{
+	width: 38% !important;
+	font-size: 9px !important;
+    font-weight: normal !important;
+    line-height: 10px !important;
+}
+.bs_upto_55 .task_item_top .input-sm_custom {
+    font-size: 10px !important;
+    width: 22px !important;
+    height: 26px !important;
+    line-height:26px !important;
+}
+.bs_upto_55 .task_item_top .energy_percent {
+    font-size: 10px !important;
+    font-weight: normal !important;
+    height: 26px !important;
+    line-height: 26px !important;
+}
+.bs_upto_55 textarea{
+    font-size: 9px !important;
+    font-weight: normal !important;
+    line-height: 11px !important;
+}
+.pageWrap_item .bs_upto_55 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_55 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+ /*   value upto 60  */ 
+ .bs_upto_60 .task_item_top .task{
+   font-size: 10px !important;
+   line-height: 30px !important;
+ }
+.bs_upto_60 .task_item_top .energy{
+	width: 38% !important;
+	font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 12px !important;
+}
+.bs_upto_60 .task_item_top .input-sm_custom {
+    font-size: 11px !important;
+    width: 22px !important;
+    height: 30px !important;
+    line-height:30px !important;
+}
+.bs_upto_60 .task_item_top .energy_percent {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    height: 30px !important;
+    line-height: 30px !important;
+}
+.bs_upto_60 textarea{
+    font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 11px !important;
+}
+.pageWrap_item .bs_upto_60 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_60 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+ /*   value upto 65  */ 
+ .bs_upto_65 .task_item_top .task{
+   font-size: 10px !important;
+   line-height: 30px !important;
+ }
+.bs_upto_65 .task_item_top .energy{
+	width: 38% !important;
+	font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 12px !important;
+}
+.bs_upto_65 .task_item_top .input-sm_custom {
+    font-size: 11px !important;
+    width: 22px !important;
+    height: 30px !important;
+    line-height:30px !important;
+}
+.bs_upto_65 .task_item_top .energy_percent {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    height: 30px !important;
+    line-height: 30px !important;
+}
+.bs_upto_65 textarea{
+    font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 11px !important;
+}
+.pageWrap_item .bs_upto_65 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_65 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+
+ /*   value upto 70  */ 
+ .bs_upto_70 .task_item_top .task{
+   font-size: 12px !important;
+   line-height: 32px !important;
+ }
+.bs_upto_70 .task_item_top .energy{
+	width: 38% !important;
+	font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+.bs_upto_70 .task_item_top .input-sm_custom {
+    font-size: 11px !important;
+    width: 22px !important;
+    height: 32px !important;
+    line-height:32px !important;
+}
+.bs_upto_70 .task_item_top .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 32px !important;
+    line-height: 32px !important;
+}
+.bs_upto_70 textarea{
+    font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 11px !important;
+}
+.pageWrap_item .bs_upto_70 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_70 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+
+ /*   value upto 75  */ 
+  .bs_upto_75 .task_item_top .task{
+   font-size: 12px !important;
+   line-height: 32px !important;
+ }
+.bs_upto_75 .task_item_top .energy{
+	width: 38% !important;
+	font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+.bs_upto_75 .task_item_top .input-sm_custom {
+    font-size: 11px !important;
+    width: 22px !important;
+    height: 32px !important;
+    line-height:32px !important;
+}
+.bs_upto_75 .task_item_top .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 32px !important;
+    line-height: 32px !important;
+}
+.bs_upto_75 textarea{
+    font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 11px !important;
+}
+.pageWrap_item .bs_upto_75 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_75 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+
+ /*   value upto 80  */ 
+  .bs_upto_80 .task_item_top .task{
+   font-size: 12px !important;
+   line-height: 34px !important;
+ }
+.bs_upto_80 .task_item_top .energy{
+	width: 38% !important;
+	font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+.bs_upto_80 .task_item_top .input-sm_custom {
+    font-size: 11px !important;
+    width: 25px !important;
+    height: 34px !important;
+    line-height:34px !important;
+}
+.bs_upto_80 .task_item_top .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 34px !important;
+    line-height: 34px !important;
+}
+.bs_upto_80 textarea{
+    font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 12px !important;
+}
+.pageWrap_item .bs_upto_80 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_80 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+
+ /*   value upto 85  */ 
+ .bs_upto_85 .task_item_top .task{
+   font-size: 12px !important;
+   line-height: 36px !important;
+ }
+.bs_upto_85 .task_item_top .energy{
+	width: 38% !important;
+	font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+.bs_upto_85 .task_item_top .input-sm_custom {
+    font-size: 12px !important;
+    width: 28px !important;
+    height: 36px !important;
+    line-height:36px !important;
+}
+.bs_upto_85 .task_item_top .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 36px !important;
+    line-height: 36px !important;
+}
+.bs_upto_85 textarea{
+    font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 12px !important;
+}
+.pageWrap_item .bs_upto_85 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_85 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}
+
+ /*   value upto 90   note: it will work 85 to 90 */
+ .bs_upto_90 .task_item_top .task{
+   font-size: 12px !important;
+   line-height: 36px !important;
+ }
+.bs_upto_90 .task_item_top .energy{
+	width: 38% !important;
+	font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+.bs_upto_90 .task_item_top .input-sm_custom {
+    font-size: 12px !important;
+    width: 28px !important;
+    height: 36px !important;
+    line-height:36px !important;
+}
+.bs_upto_90 .task_item_top .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 36px !important;
+    line-height: 36px !important;
+}
+.bs_upto_90 textarea{
+    font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 12px !important;
+}
+.pageWrap_item .bs_upto_90 .task_item_top {
+    height: 32% !important;
+    min-height: 32% !important;
+}
+.pageWrap_item .bs_upto_90 .task_item_botm {
+    height: 68%;
+    min-height: 68% !important;
+}	
+	
+/* After Sketch Valuewise css */	
+	
+ /*   value upto 9  */
+ 
+ .upto_9 .input-sm_custom {
+    font-size: 6px !important;
+    font-weight: normal !important;
+    height: 10px !important;
+    line-height: 10px !important;
+} 
+ .upto_9 .task{
+   font-size: 6px !important;
+   line-height: 10px;
+ }
+.upto_9 .task_item_top_sketch .energy_percent {
+    font-size: 6px !important;
+    font-weight: normal !important;
+    height: 10px !important;
+    line-height: 14px !important;
+}
+.upto_9 .task_item_top_sketch .energy_smaller{
+	width: 43% !important;
+}
+
+.upto_9 .task_item_top_sketch .form-control-sketch_smaller {
+    font-size: 6px !important;
+    width: 12px !important;
+    height: 14px !important;
+    line-height:14px !important;
+}
+
+.upto_9 .task_item_top_sketch{
+padding-top: 1px !important;	
+}
+
+
+/*   value upto 10  */ 
+ .upto_10 .input-sm_custom {
+    font-size: 6px !important;
+    font-weight: normal !important;
+    height: 10px !important;
+    line-height: 10px !important;
+} 
+ .upto_10 .task{
+   font-size: 6px !important;
+   line-height: 10px;
+ }
+.upto_10 .task_item_top_sketch .energy_percent {
+    font-size: 7px !important;
+    font-weight: normal !important;
+    height: 14px !important;
+    line-height: 14px !important;
+}
+.upto_10 .task_item_top_sketch .energy_smaller{
+	width: 43% !important;
+}
+
+.upto_10 .task_item_top_sketch .input-sm_custom {
+    font-size: 6px !important;
+    width: 15px !important;
+    height: 16px !important;
+    line-height:16px !important;
+}
+
+.upto_10 .task_item_top_sketch .energy{
+	width: 40% !important;
+}
+
+.upto_10 .task_item_top_sketch{
+padding-top: 1px !important;	
+} 
+ .upto_10 .ui-resizable-se {
+  bottom: 0 !important;
+ }
+ .uptoBs_10 .ui-resizable-se {
+  bottom: -22px !important;
+ }
+ 
+/*   value upto 15  */ 
+ .upto_15 .input-sm_custom {
+    font-size: 6px !important;
+    font-weight: normal !important;
+    height: 10px !important;
+    line-height: 10px !important;
+} 
+ .upto_15 .task_item_top_sketch .task{
+   font-size: 6px !important;
+   line-height: 14px !important;
+ }
+.upto_15 .task_item_top_sketch .energy_percent {
+    font-size: 7px !important;
+    font-weight: normal !important;
+    height: 14px !important;
+    line-height: 14px !important;
+}
+.upto_15 .task_item_top_sketch .energy{
+	width: 43% !important;
+}
+
+.upto_15 .task_item_top_sketch .input-sm_custom {
+    font-size: 6px !important;
+    width: 15px !important;
+    height: 16px !important;
+    line-height:16px !important;
+}
+
+
+/*   value upto 20  */ 
+ .upto_20 .input-sm_custom {
+    font-size: 6px !important;
+    font-weight: normal !important;
+    height: 10px !important;
+    line-height: 10px !important;
+} 
+ .upto_20 .task_item_top_sketch .task{
+   font-size: 6px !important;
+   line-height: 14px !important;
+ }
+.upto_20 .task_item_top_sketch .energy_percent {
+    font-size: 7px !important;
+    font-weight: normal !important;
+    height: 14px !important;
+    line-height: 14px !important;
+}
+.upto_20 .task_item_top_sketch .energy{
+	width: 43% !important;
+}
+
+.upto_20 .task_item_top_sketch .input-sm_custom {
+    font-size: 6px !important;
+    width: 15px !important;
+    height: 16px !important;
+    line-height:16px !important;
+}
+
+/*   value upto 25  */ 
+ .upto_25 .task_item_top_sketch .task{
+   font-size: 7px !important;
+   line-height: 18px !important;
+ }
+.upto_25 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 7px !important;
+    font-weight: normal !important;
+    line-height: 8px !important;
+}
+.upto_25 .task_item_top_sketch .input-sm_custom {
+    font-size: 7px !important;
+    width: 16px !important;
+    height: 18px !important;
+    line-height:18px !important;
+}
+.upto_25 .task_item_top_sketch .energy_percent {
+    font-size: 7px !important;
+    font-weight: normal !important;
+    height: 18px !important;
+    line-height: 18px !important;
+}
+ /*   value upto 30  */ 
+ .upto_30 .task_item_top_sketch .task{
+   font-size: 7px !important;
+   line-height: 18px !important;
+ }
+.upto_30 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 7px !important;
+    font-weight: normal !important;
+    line-height: 8px !important;
+}
+.upto_30 .task_item_top_sketch .input-sm_custom {
+    font-size: 7px !important;
+    width: 16px !important;
+    height: 18px !important;
+    line-height:18px !important;
+}
+.upto_30 .task_item_top_sketch .energy_percent {
+    font-size: 7px !important;
+    font-weight: normal !important;
+    height: 18px !important;
+    line-height: 18px !important;
+}
+ /*   value upto 35  */ 
+ .upto_35 .task_item_top_sketch .task{
+   font-size: 7px !important;
+   line-height: 18px !important;
+ }
+.upto_35 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 7px !important;
+    font-weight: normal !important;
+    line-height: 8px !important;
+}
+.upto_35 .task_item_top_sketch .input-sm_custom {
+    font-size: 7px !important;
+    width: 16px !important;
+    height: 18px !important;
+    line-height:18px !important;
+}
+.upto_35 .task_item_top_sketch .energy_percent {
+    font-size: 7px !important;
+    font-weight: normal !important;
+    height: 18px !important;
+    line-height: 18px !important;
+}
+ /*   value upto 40  */ 
+ .upto_40 .task_item_top_sketch .task{
+   font-size: 9px !important;
+   line-height: 20px !important;
+ }
+.upto_40 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 8px !important;
+    font-weight: normal !important;
+    line-height: 9px !important;
+}
+.upto_40 .task_item_top_sketch .input-sm_custom {
+    font-size: 9px !important;
+    width: 20px !important;
+    height: 20px !important;
+    line-height:20px !important;
+}
+.upto_40 .task_item_top_sketch .energy_percent {
+    font-size: 8px !important;
+    font-weight: normal !important;
+    height: 20px !important;
+    line-height: 20px !important;
+}
+ /*   value upto 45  */ 
+ .upto_45 .task_item_top_sketch .task{
+   font-size: 10px !important;
+   line-height: 23px !important;
+ }
+.upto_45 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 9px !important;
+    font-weight: normal !important;
+    line-height: 10px !important;
+}
+.upto_45 .task_item_top_sketch .input-sm_custom {
+    font-size: 9px !important;
+    width: 23px !important;
+    height: 23px !important;
+    line-height:23px !important;
+}
+.upto_45 .task_item_top_sketch .energy_percent {
+    font-size: 8px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+} 
+ /*   value upto 50  */ 
+ .upto_50 .task_item_top_sketch .task{
+   font-size: 10px !important;
+   line-height: 23px !important;
+ }
+.upto_50 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 9px !important;
+    font-weight: normal !important;
+    line-height: 10px !important;
+}
+.upto_50 .task_item_top_sketch .input-sm_custom {
+    font-size: 9px !important;
+    width: 23px !important;
+    height: 23px !important;
+    line-height:23px !important;
+}
+.upto_50 .task_item_top_sketch .energy_percent {
+    font-size: 8px !important;
+    font-weight: normal !important;
+    height: 23px !important;
+    line-height: 23px !important;
+}
+ /*   value upto 55  */ 
+ .upto_55 .task_item_top_sketch .task{
+   font-size: 11px !important;
+   line-height: 26px !important;
+ }
+.upto_55 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 12px !important;
+}
+.upto_55 .task_item_top_sketch .input-sm_custom {
+    font-size: 10px !important;
+    width: 24px !important;
+    height: 26px !important;
+    line-height:26px !important;
+}
+.upto_55 .task_item_top_sketch .energy_percent {
+    font-size: 8px !important;
+    font-weight: normal !important;
+    height: 26px !important;
+    line-height: 26px !important;
+}
+ /*   value upto 60  */ 
+ .upto_60 .task_item_top_sketch .task{
+   font-size: 11px !important;
+   line-height: 26px !important;
+ }
+.upto_60 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 12px !important;
+}
+.upto_60 .task_item_top_sketch .input-sm_custom {
+    font-size: 10px !important;
+    width: 24px !important;
+    height: 26px !important;
+    line-height:26px !important;
+}
+.upto_60 .task_item_top_sketch .energy_percent {
+    font-size: 10px !important;
+    font-weight: normal !important;
+    height: 26px !important;
+    line-height: 26px !important;
+}
+ /*   value upto 65  */ 
+ .upto_65 .task_item_top_sketch .task{
+   font-size: 13px !important;
+   line-height: 30px !important;
+ }
+.upto_65 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+.upto_65 .task_item_top_sketch .input-sm_custom {
+    font-size: 13px !important;
+    width: 28px !important;
+    height: 30px !important;
+    line-height:30px !important;
+}
+.upto_65 .task_item_top_sketch .energy_percent {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    height: 30px !important;
+    line-height: 30px !important;
+}
+ /*   value upto 70  */ 
+ .upto_70 .task_item_top_sketch .task{
+   font-size: 13px !important;
+   line-height: 30px !important;
+ }
+.upto_70 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+.upto_70 .task_item_top_sketch .input-sm_custom {
+    font-size: 13px !important;
+    width: 28px !important;
+    height: 30px !important;
+    line-height:30px !important;
+}
+.upto_70 .task_item_top_sketch .energy_percent {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    height: 30px !important;
+    line-height: 30px !important;
+}
+
+ /*   value upto 75  */ 
+ .upto_75 .task_item_top_sketch .task{
+   font-size: 13px !important;
+   line-height: 30px !important;
+ }
+.upto_75 .task_item_top_sketch .energy{
+	width: 43% !important;
+	font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 13px !important;
+}
+.upto_75 .task_item_top_sketch .input-sm_custom {
+    font-size: 13px !important;
+    width: 28px !important;
+    height: 30px !important;
+    line-height:30px !important;
+}
+.upto_75 .task_item_top_sketch .energy_percent {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    height: 30px !important;
+    line-height: 30px !important;
+}
+
+ /*   value upto 80  */ 
+ .upto_80 .task_item_top_sketch .task{
+   font-size: 13px !important;
+   line-height: 35px !important;
+ }
+.upto_80 .task_item_top_sketch .energy{
+	width: 41% !important;
+	font-size: 12px !important;
+    font-weight: normal !important;
+    line-height: 14px !important;
+}
+.upto_80 .task_item_top_sketch .input-sm_custom {
+    font-size: 13px !important;
+    width: 30px !important;
+    height: 35px !important;
+    line-height:35px !important;
+}
+.upto_80 .task_item_top_sketch .energy_percent {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    height: 35px !important;
+    line-height: 35px !important;
+} 
+ /*   value upto 90   note: it will work 85 to 90 */
+ .upto_90 .task_item_top_sketch .task{
+   font-size: 13px !important;
+   line-height: 35px !important;
+ }
+.upto_90 .task_item_top_sketch .energy{
+	width: 41% !important;
+	font-size: 12px !important;
+    font-weight: normal !important;
+    line-height: 14px !important;
+}
+.upto_90 .task_item_top_sketch .input-sm_custom {
+    font-size: 13px !important;
+    width: 30px !important;
+    height: 35px !important;
+    line-height:35px !important;
+}
+.upto_90 .task_item_top_sketch .energy_percent {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    height: 35px !important;
+    line-height: 35px !important;
+}
+
+	
+.pageWrap_item .ui-resizable-handle{
+	right: -4px;
+}
+
+
+.single_task_item {
+       margin-top: 10px !important;      
+       margin-bottom: 10px !important;
+       margin-left: 12px !important;
+       margin-right: 8px !important;     
+}
+
+.single_task_item_sketch {
+       margin-top: 10px !important;      
+       margin-bottom: 10px !important;
+       margin-left: 12px !important;
+       margin-right: 8px !important;     
+}
+.header_align {
+	text-align: center;
+	font-size: 16px;
+}
+
+.plus_sign_small {
+	margin-left:6px !important;
+	margin-top: 6px;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	display: inline-block;
+	}
+	
+	.up_triangle_small{
+	margin-left: -2px !important;
+	margin-top: 6px;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	display: inline-block;
+	}
+		
+	.oval_small {
+	height: 55px;
+	line-height: 55px;
+	width: 55px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 2px !important;
+	}
+	
+	.fancybox-wrap {
+	left: 5% !important;
+	width: 420px !important;
+}
+.fancybox-inner {
+	width: 420px !important;
+	min-width: 420px !important;
+}
+
+.popupBackButton {
+	padding-left: 14px !important;
+    padding-right: 14px !important;
+}
+
+/* Dated : 16.07.2014
+   Added to Fix #421 in iPhone */
+.form-horizontal .shape_area .inner_div .common_div{
+	float: none;
+	height: auto;
+	margin: 0 auto !important;
+	padding-left: 0;
+	width: 65% !important;
+}
+.up_triangle_small {
+    margin-left: 8px !important;
+}
+
+/* Dated : 16.07.2014
+   Added to implement popover to show attribute description on mouse hover on attribute name*/
+.popover.top {
+  margin-top: 50px !important;
+  margin-left: 70px !important;
+}
+
+}   /*  css conditional bracket dont use it or delete it :) */

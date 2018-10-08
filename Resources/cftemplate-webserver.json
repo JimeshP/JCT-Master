@@ -1,0 +1,554 @@
+{
+	"AWSTemplateFormatVersion": "2010-09-09",
+
+	"Description": "AWS CloudFormation Template: To launch internet facing web application stack",
+
+	"Parameters": {
+
+		"InstanceType": {
+			"Description": "WebServer EC2 instance type",
+			"Type": "String",
+			"Default": "t2.micro",
+			"AllowedValues": ["t2.micro", "m1.small", "m1.medium", "m1.large", "m1.xlarge", "m2.xlarge", "m2.2xlarge", "m2.4xlarge", "m3.xlarge", "m3.2xlarge", "c1.medium", "c1.xlarge", "cc1.4xlarge", "cc2.8xlarge", "cg1.4xlarge"],
+			"ConstraintDescription": "must be a valid EC2 instance type."
+		},
+
+		"InstanceImageId": {
+			"Description": "WebServer EC2 instance type",
+			"Type": "String",
+			"Default": "ami-0103cd62"
+		},
+
+		"InstanceCount": {
+			"Description": "Number of EC2 instances to launch",
+			"Type": "Number",
+			"Default": "1"
+		},
+
+		"MySSHKeyName": {
+			"Description": "SSH Key to connect to Ec2 instance",
+			"Type": "String",
+			"Default": "webserver-ec2-ubuntu-key"
+		},
+
+		"MyVPC": {
+			"Description": "VPC Id",
+			"Type": "String",
+			"Default": "vpc-27c6bd42"
+		},
+
+		"PublicSubnet": {
+			"Description": "Public Subnet Id",
+			"Type": "String",
+			"Default": "subnet-b82804cf"
+		},
+
+		"AvailabilityZone": {
+			"Description": "Public Subnet Id",
+			"Type": "String",
+			"Default": "ap-southeast-1b"
+		}
+
+
+
+	},
+
+	"Mappings": {
+		"AWSInstanceType2Arch": {
+			"t1.micro": {
+				"Arch": "64"
+			},
+			"t2.micro": {
+				"Arch": "64"
+			},
+			"m1.small": {
+				"Arch": "64"
+			},
+			"m1.medium": {
+				"Arch": "64"
+			},
+			"m1.large": {
+				"Arch": "64"
+			},
+			"m1.xlarge": {
+				"Arch": "64"
+			},
+			"m2.xlarge": {
+				"Arch": "64"
+			},
+			"m2.2xlarge": {
+				"Arch": "64"
+			},
+			"m2.4xlarge": {
+				"Arch": "64"
+			},
+			"m3.xlarge": {
+				"Arch": "64"
+			},
+			"m3.2xlarge": {
+				"Arch": "64"
+			},
+			"c1.medium": {
+				"Arch": "64"
+			},
+			"c1.xlarge": {
+				"Arch": "64"
+			}
+		},
+
+		"AWSRegionArch2AMI": {
+			"us-east-1": {
+				"32": "ami-aba768c2",
+				"64": "ami-81a768e8"
+			},
+			"us-west-1": {
+				"32": "ami-458fd300",
+				"64": "ami-b18ed2f4"
+			},
+			"us-west-2": {
+				"32": "ami-fcff72cc",
+				"64": "ami-feff72ce"
+			},
+			"eu-west-1": {
+				"32": "ami-018bb975",
+				"64": "ami-998bb9ed"
+			},
+			"sa-east-1": {
+				"32": "ami-a039e6bd",
+				"64": "ami-a239e6bf"
+			},
+			"ap-southeast-1": {
+				"32": "ami-425a2010",
+				"64": "ami-25c00c46"
+			},
+			"ap-southeast-2": {
+				"32": "ami-f98512c3",
+				"64": "ami-9e0420fd"
+			},
+			"ap-northeast-1": {
+				"32": "ami-7871c579",
+				"64": "ami-7671c577"
+			}
+		}
+	},
+
+	"Resources": {
+
+		"WebAppRole": {
+			"Type": "AWS::IAM::Role",
+			"Properties": {
+				"AssumeRolePolicyDocument": {
+					"Version": "2012-10-17",
+					"Statement": [{
+						"Effect": "Allow",
+						"Principal": {
+							"Service": [
+								"ec2.amazonaws.com"
+							]
+						},
+						"Action": [
+							"sts:AssumeRole"
+						]
+					}]
+				},
+				"Path": "/",
+				"Policies": [{
+					"PolicyName": "Ec2WebAppS3AccessPolicy",
+					"PolicyDocument": {
+						"Version": "2012-10-17",
+						"Statement": [{
+							"Sid": "Stmt1394038219000",
+							"Effect": "Allow",
+							"Action": ["s3:*"],
+							"Resource": [{
+								"Fn::Join": [":", ["arn:aws:s3::", {
+									"Ref": "MyVPC"
+								}]]
+							}]
+						}, {
+							"Sid": "Stmt1394038219001",
+							"Effect": "Allow",
+							"Action": ["s3:GetObject"],
+							"Resource": [{
+								"Fn::Join": ["/", [{
+										"Fn::Join": [":", ["arn:aws:s3::", {
+											"Ref": "MyVPC"
+										}]]
+									},
+									"sec/creds", {
+										"Ref": "AWS::StackName"
+									}, "*"
+								]]
+							}]
+						}, {
+							"Sid": "Stmt1394038219002",
+							"Effect": "Allow",
+							"Action": ["s3:ListBucket"],
+							"Resource": [{
+								"Fn::Join": [":", ["arn:aws:s3::", {
+									"Ref": "MyVPC"
+								}]]
+							}]
+						}]
+					}
+				}, {
+					"PolicyName": "Ec2LogPolicy",
+					"PolicyDocument": {
+						"Version": "2012-10-17",
+						"Statement": [{
+							"Sid": "Stmt1394038219002",
+							"Effect": "Allow",
+							"Action": ["logs:*"],
+							"Resource": ["*"]
+						}]
+					}
+				}]
+			}
+		},
+
+
+		"ElasticLoadBalancer": {
+			"Type": "AWS::ElasticLoadBalancing::LoadBalancer",
+			"Properties": {
+				"SecurityGroups": [{
+					"Ref": "LoadBalancerSecurityGroup"
+				}],
+				"Subnets": [{
+					"Ref": "PublicSubnet"
+				}],
+				"Listeners": [{
+					"LoadBalancerPort": "80",
+					"InstancePort": "80",
+					"Protocol": "HTTP"
+				}],
+				"HealthCheck": {
+					"Target": "HTTP:80/",
+					"HealthyThreshold": "3",
+					"UnhealthyThreshold": "5",
+					"Interval": "300",
+					"Timeout": "60"
+				}
+			}
+		},
+
+		"LoadBalancerSecurityGroup": {
+			"Type": "AWS::EC2::SecurityGroup",
+			"Properties": {
+				"GroupDescription": "Enable HTTP access on port 80",
+				"VpcId": {
+					"Ref": "MyVPC"
+				},
+				"SecurityGroupIngress": [{
+					"IpProtocol": "tcp",
+					"FromPort": "80",
+					"ToPort": "80",
+					"CidrIp": "0.0.0.0/0"
+				}, {
+					"IpProtocol": "tcp",
+					"FromPort": "22",
+					"ToPort": "22",
+					"CidrIp": "0.0.0.0/0"
+				}],
+				"SecurityGroupEgress": [{
+					"IpProtocol": "tcp",
+					"FromPort": "80",
+					"ToPort": "80",
+					"CidrIp": "0.0.0.0/0"
+				}, {
+					"IpProtocol": "tcp",
+					"FromPort": "22",
+					"ToPort": "22",
+					"CidrIp": "0.0.0.0/0"
+				}]
+			}
+		},
+
+		"WebServerGroup": {
+			"Type": "AWS::AutoScaling::AutoScalingGroup",
+			"Properties": {
+				"AvailabilityZones": [{
+					"Ref": "AvailabilityZone"
+				}],
+				"VPCZoneIdentifier": [{
+					"Ref": "PublicSubnet"
+				}],
+				"LaunchConfigurationName": {
+					"Ref": "LaunchConfig"
+				},
+				"MinSize": "1",
+				"MaxSize": "2",
+				"DesiredCapacity": {
+					"Ref": "InstanceCount"
+				},
+				"LoadBalancerNames": [{
+					"Ref": "ElasticLoadBalancer"
+				}],
+				"Tags": [{
+					"Key": "Network",
+					"Value": "Public",
+					"PropagateAtLaunch": "true"
+				}]
+			}
+		},
+
+		"LaunchConfig": {
+			"Type": "AWS::AutoScaling::LaunchConfiguration",
+			"Metadata": {
+				"AWS::CloudFormation::Authentication": {
+					"S3AccessCreds": {
+						"type": "S3",
+						"roleName": {
+							"Ref": "WebAppRole"
+						}
+					}
+				},
+				"AWS::CloudFormation::Init": {
+					"configSets": {
+						"default": ["Install", "CfnConfig", "Java"],
+						"AppOnly": ["CfnConfig"]
+					},
+					"Install": {
+						"packages": {
+							"yum": {
+								"tomcat8": []
+							}
+						},
+						"groups": {},
+						"users": {},
+						"sources": {},
+						"files": {},
+						"commands": {
+							"1 - Wget Jenkins ": {
+								"command": "wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo"
+							},
+							"2 - RPM yum ": {
+								"command": "rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key"
+							},
+							"3 - Install Jenkins ": {
+								"command": "yes | yum install jenkins"
+							}
+						},
+						"services": {
+							"sysvinit": {
+								"tomcat8": {
+									"enabled": "true",
+									"ensureRunning": "true"
+								},
+								"jenkins": {
+									"enabled": "true",
+									"ensureRunning": "true"
+								}
+							}
+						}
+					},
+					"Java": {
+						"packages": {},
+						"groups": {},
+						"users": {},
+						"sources": {},
+						"files": {},
+						"commands": {
+							"01 - Remove installed java": {
+								"command": "yes | yum remove java"
+							},
+							"02 - Make opt / java directory ": {
+								"command": "mkdir -p /opt/java"
+							},
+							"03 - Change directory to opt/java ": {
+								"command": "cd /opt/java"
+							},
+							"04 - Change directory to opt/java ": {
+								"command": "pwd"
+							},
+							"05 - Download JDK from oracle ": {
+								"command": "wget --no-cookies --no-check-certificate --header 'Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cooki' 'http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz'"
+							},
+							"06 - Unzip JDK ": {
+								"command": "tar -zxvf jdk-8u45-linux-x64.tar.gz"
+							},
+							"07 - Change directory to Java 8": {
+								"command": "cd jdk1.8.0_45/"
+							},
+							"08 - Install JDK 8": {
+								"command": "update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_45/bin/java 100"
+							},
+							"09 - Configure JDK 8": {
+								"command": "update-alternatives --set java /opt/java/jdk1.8.0_45/bin/java"
+							},
+							"10 - Update javac": {
+								"command": "update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_45/bin/javac 100"
+							},
+							"11 - Update Jar Alternative": {
+								"command": "update-alternatives --install /usr/bin/jar jar /opt/java/jdk1.8.0_45/bin/jar 100"
+							},
+							"12 - Update alternative": {
+								"command": "update-alternatives --set javac /opt/java/jdk1.8.0_45/bin/javac"
+							},
+							"13 - Update alternative": {
+								"command": "update-alternatives --set jar /opt/java/jdk1.8.0_45/bin/jar"
+							},
+							"14 - SET JAVA_HOME": {
+								"command": "export JAVA_HOME=/opt/java/jdk1.8.0_45/"
+							},
+							"15 - SET JRE_HOME": {
+								"command": "export JRE_HOME=/opt/java/jdk1.8.0._45/jre "
+							},
+							"16 - SET PATH variable": {
+								"command": "export PATH=$PATH:/opt/java/jdk1.8.0_45/bin:/opt/java/jdk1.8.0_45/jre/bin"
+							},
+							"17 - YUM Update ": {
+								"command": "yes | yum update"
+							}
+						},
+						"services": {}
+					},
+					"CfnConfig": {
+						"packages": {},
+						"groups": {},
+						"users": {},
+						"sources": {},
+						"files": {
+							"/etc/cfn/cfn-hup.conf": {
+								"content": {
+									"Fn::Join": ["", [
+										"[main]\n",
+										"stack=", {
+											"Ref": "AWS::StackName"
+										}, "\n",
+										"region=", {
+											"Ref": "AWS::Region"
+										}, "\n",
+										"interval=3", "\n",
+										"verbose=false", "\n"
+									]]
+								},
+								"mode": "000400",
+								"owner": "root",
+								"group": "root"
+							},
+							"/etc/cfn/hooks.d/cfn-auto-reloader.conf": {
+								"content": {
+									"Fn::Join": ["", [
+										"[cfn-auto-reloader-hook]\n",
+										"triggers=post.update\n",
+										"path=Resources.LaunchConfig.Metadata.AWS::CloudFormation::Init\n",
+										" /opt/aws/bin/cfn-init",
+										" --stack ", {
+											"Ref": "AWS::StackName"
+										},
+										" --resource ", "LaunchConfig",
+										" --region ", {
+											"Ref": "AWS::Region"
+										},
+										" --configsets AppOnly",
+										" --verbose", "\n",
+										"runas=root\n"
+									]]
+								},
+								"mode": "000644",
+								"owner": "root",
+								"group": "root"
+							}
+						},
+						"commands": {},
+						"services": {
+							"sysvinit": {
+								"cfn-hup": {
+									"enabled": "true",
+									"ensureRunning": "true"
+								},
+								"tomcat8": {
+									"enabled": "true",
+									"ensureRunning": "true"
+								},
+								"jenkins": {
+									"enabled": "true",
+									"ensureRunning": "true"
+								}
+							}
+						}
+					}
+				}
+			},
+
+			"Properties": {
+				"AssociatePublicIpAddress": true,
+				"ImageId": {
+					"Ref": "InstanceImageId"
+				},
+				"InstanceType": {
+					"Ref": "InstanceType"
+				},
+				"SecurityGroups": [{
+					"Ref": "InstanceSecurityGroup"
+				}],
+				"KeyName": {
+					"Ref": "MySSHKeyName"
+				},
+				"UserData": {
+					"Fn::Base64": {
+						"Fn::Join": ["", [
+							"#!/bin/bash -xe\n",
+							"exec > >(tee /var/log/user-data.log|logger -t user-data ) 2>&1 \n",
+							"echo BEGIN\n",
+							"date '+%Y-%m-%d %H:%M:%S'\n",
+							"#apt-get update --fix-missing\n",
+							"#yes | apt-get install yum\n",
+							"#yes | apt-get install awscli\n",
+							"yum update -y aws-cfn-bootstrap\n",
+							"# Install the files and packages from the metadata\n",
+							"#apt-get -y install python-setuptools\n",
+							"#easy_install https://s3.amazonaws.com/cloudformation-examples/aws-cfn-bootstrap-latest.tar.gz\n",
+							"#yes | apt-get install python-dev libffi-dev libssl-dev \n",
+							"#apt-get update --fix-missing\n",
+							"sleep 50\n",
+							"/opt/aws/bin/cfn-init -v ",
+							"         --stack ", {
+								"Ref": "AWS::StackName"
+							},
+							"         --resource LaunchConfig ",
+							"         --configsets default ",
+							"         --region ", {
+								"Ref": "AWS::Region"
+							}, "\n"
+						]]
+					}
+				}
+			}
+		},
+
+		"InstanceSecurityGroup": {
+			"Type": "AWS::EC2::SecurityGroup",
+			"Properties": {
+				"GroupDescription": "Enable HTTP access on the configured port",
+				"VpcId": {
+					"Ref": "MyVPC"
+				},
+				"SecurityGroupIngress": [{
+					"IpProtocol": "tcp",
+					"FromPort": "80",
+					"ToPort": "80",
+					"SourceSecurityGroupId": {
+						"Ref": "LoadBalancerSecurityGroup"
+					}
+				}, {
+					"IpProtocol": "tcp",
+					"FromPort": "22",
+					"ToPort": "22",
+					"CidrIp": "0.0.0.0/0"
+				}]
+			}
+		}
+	},
+	
+	"Outputs": {
+		"URL": {
+			"Description": "URL of the website",
+			"Value": {
+				"Fn::Join": ["", ["http://", {
+					"Fn::GetAtt": ["ElasticLoadBalancer", "DNSName"]
+				}]]
+			}
+		}
+	}
+}

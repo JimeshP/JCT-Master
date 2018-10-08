@@ -1,0 +1,624 @@
+@media screen and (min-width: 1152px) and (max-width: 1270px) {
+.div_strength .border {
+/* padding: 3px !important; */
+/* box-shadow: 0px 0px 2px #262626 inset; */
+font-size: 12px !important;
+}
+
+.oval {
+margin-left: 16px !important; 
+width: 100px !important;
+}
+.oval_small {
+height: 61px !important;
+margin-left: 0px !important;
+width: 42px !important;
+margin-right: 45px !important;
+}
+
+.uptoDesc_9 .task_item_top_sketch .energy_smaller {
+font-size: 9px;
+}
+.uptoDesc_9 .form-control-additional{
+width: 104px !important;
+font-size: 8px !important;
+line-height: 8px !important;
+}
+
+/*
+.uptoDesc_9 .form-control-additional {
+width: 104px !important;
+font-size: 8px !important;
+line-height: 93% !important;
+}
+*/
+
+
+.uptoDesc_9 .task_item_top_sketch .task_smaller {
+font-size: 10px !important;
+}
+
+.uptoDesc_9 .task_item_top_sketch .energy_percent {
+margin-top: -1px;
+font-weight: bold;
+margin-left: -5px !important;
+}
+.uptoDesc_9 .energy_field {
+margin-top: -2px !important;
+}
+.uptoDesc_9 .task_item_top_sketch .energy {
+width: 49% !important;
+line-height: 32px !important;
+}
+.uptoDesc_9 .input-sm_custom {
+padding: 0px !important;
+height: 24px !important;
+}
+
+.uptoDesc_10  .task_item_top_sketch .energy_field {
+width: 24px !important;
+}
+.uptoDesc_10 .task_item_top_sketch  .energy_small{
+font-size: 9px !important;
+}
+
+.uptoDesc_10 .task_item_top_sketch .energy {
+margin-top: -2px;
+}
+.uptoDesc_10 .energy_field .form-control-sketch_small{
+margin-top: -1px !important;
+width: 22px !important;
+}
+.uptoDesc_10 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 2px !important;
+}
+.uptoDesc_10 .additional_area .form-control-additional{
+width: 105px !important;
+line-height: 8px !important;
+font-size: 8px !important;
+}
+.uptoDesc_10 .task_item_top_sketch  *{
+padding: 0px !important;
+}
+.uptoDesc_10 .input-sm_custom{
+height: 26px;
+}
+
+
+
+
+.uptoDesc_15 .task_item_top_sketch  .task {
+font-size: 10px !important;
+}
+
+.uptoDesc_15 .task_item_top_sketch .task_smaller{
+font-size: 10px !important;
+}
+.uptoDesc_15 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 2px !important;
+}
+/*.uptoDesc_15 .additional_area .form-control-additional{
+width: 105px !important;
+line-height: 7px !important;
+font-size: 10px !important;
+}*/
+
+
+.uptoDesc_15 .additional_area .form-control-additional {
+    width: 105px !important;
+    line-height: 73% !important;
+    font-size: 10px !important;
+}
+
+
+.uptoDesc_15 .task_item_top_sketch  *{
+padding: 0px !important;
+}
+
+.uptoDesc_15 .input-sm_custom{
+height: 26px;
+}
+
+.uptoDesc_15 .energy_field {
+margin-left: -4px !important;
+}
+
+
+.uptoDesc_15 .task_item_top_sketch .energy_small {
+font-size: 9px;
+text-align: center;
+line-height: 32px !important;
+margin-left: -3px !important;
+}
+
+
+
+.uptoDesc_20 .task_item_top_sketch  .task {
+font-size: 11px !important;
+}
+
+.uptoDesc_20 .task_item_top_sketch .energy_small {
+font-size: 9px !important;
+margin-left: -6px !important;
+line-height: 31px !important;
+margin-top: -2px !important;
+}
+
+.uptoDesc_20 .task_item_top_sketch .task_smaller{
+font-size: 10px !important;
+}
+.uptoDesc_20 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 2px !important;
+}
+.uptoDesc_20 .additional_area .form-control-additional{
+width: 110px !important;
+line-height: 9px !important;
+font-size: 9px !important;
+}
+.uptoDesc_20 .task_item_top_sketch  *{
+padding: 0px !important;
+}
+
+.uptoDesc_20 .input-sm_custom{
+height: 26px;
+}
+.uptoDesc_20 .input-sm_custom {
+width: 28px !important;
+}
+
+
+.uptoDesc_25 .task_item_top_sketch  .task {
+font-size: 12px !important;
+margin-top: -2px !important;
+}
+
+.uptoDesc_25 .task_item_top_sketch .energy_small {
+font-size: 10px !important;
+}
+
+.uptoDesc_25 .task_item_top_sketch .energy_field {
+margin-top: -2px !important;
+}
+
+
+.uptoDesc_25 .task_item_top_sketch .task_smaller{
+font-size: 9px !important;
+}
+.uptoDesc_25 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 2px !important;
+}
+.uptoDesc_25 .additional_area .form-control-additional{
+width: 115px !important;
+line-height: 10px !important;
+font-size: 9px !important;
+}
+.uptoDesc_25 .task_item_top_sketch  *{
+padding: 0px !important;
+}
+
+.uptoDesc_25 .input-sm_custom{
+height: 26px;
+}
+.uptoDesc_25 .input-sm_custom {
+width: 30px !important;
+}
+
+.uptoDesc_25 .task_item_top_sketch .energy {
+margin-left: -8px !important;
+margin-top: -2px !important;
+}
+.uptoDesc_25 .single_task_item_sketch  .task_item_top_sketch  {
+line-height: 30px !important;
+}
+
+.uptoDesc_30 .task_item_top_sketch  .task {
+font-size: 12px !important;
+}
+
+.uptoDesc_30 .task_item_top_sketch .task_smaller{
+font-size: 15px !important;
+}
+.uptoDesc_30 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 8px !important;
+}
+
+.uptoDesc_30 .task_item_botm_sketch textarea {
+height: 91% !important;
+}
+.uptoDesc_30 .additional_area .form-control-additional{
+width: 126px !important;
+line-height: 10px !important;
+font-size: 11px !important;
+}
+.uptoDesc_30 .task_item_top_sketch  *{
+padding: 0px !important;
+}
+
+.uptoDesc_30 .input-sm_custom{
+height: 26px;
+}
+.uptoDesc_30 .task_item_top_sketch .energy {
+margin-left: -5px !important;
+}
+
+.uptoDesc_35 .task_item_top_sketch  .task {
+font-size: 13px !important;
+}
+
+.uptoDesc_35 .task_item_top_sketch .task_smaller{
+font-size: 15px !important;
+}
+.uptoDesc_35 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 4px !important;
+}
+.uptoDesc_35 .additional_area .form-control-additional{
+width: 128px !important;
+line-height: 12px !important;
+font-size: 12px !important;
+}
+.uptoDesc_35 .task_item_top_sketch  *{
+padding: 0px !important;
+}
+
+.uptoDesc_35 .input-sm_custom{
+height: 26px !important;
+}
+.uptoDesc_35 .task_item_top_sketch .energy {
+margin-left: -11px !important;
+}
+.uptoDesc_40 .task_item_top_sketch .task_smaller{
+font-size: 13px !important;
+}
+.uptoDesc_40 .task_item_top_sketch .energy_field {
+width: 36px !important;
+}
+
+.uptoDesc_40 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 3px !important;
+}
+.uptoDesc_40 .additional_area .form-control-additional{
+width: 147px !important;
+line-height: 12px !important;
+font-size: 12px !important;
+}
+.uptoDesc_40 .task_item_top_sketch  *{
+padding: 0px !important;
+}
+
+.uptoDesc_40 .input-sm_custom{
+height: 26px;
+}
+
+.uptoDesc_40 .task_item_top_sketch .energy {
+font-size: 12px !important;
+margin-left: -9px !important;
+margin-top: -2px !important;
+}
+
+.uptoDesc_45 .task_item_top_sketch  .energy {
+font-size: 12px !important;
+margin-left: -11px !important;
+margin-top: -2px !important;
+}
+
+.uptoDesc_45 .task_item_top_sketch  .energy_field {
+width: 39px !important;
+}
+.uptoDesc_45 .task_item_top_sketch .task_smaller{
+font-size: 13px !important;
+}
+.uptoDesc_45 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 0px !important;
+}
+.uptoDesc_45 .additional_area .form-control-additional{
+width: 148px !important;
+line-height: 14px !important;
+font-size: 15px !important;
+}
+.uptoDesc_45 .task_item_top_sketch  *{
+padding: 0px !important;
+}
+
+.uptoDesc_45 .input-sm_custom{
+height: 26px;
+}
+
+.uptoDesc_50 .additional_area .form-control-additional{		/* **********   */
+width: 170px !important;
+line-height: 14px !important;
+font-size: 15px !important;
+margin-top: 4px !important;
+}
+
+.uptoDesc_50 .task_item_top_sketch {
+height: 19% !important;
+}
+
+.uptoDesc_50 .task_item_top_sketch .energy_middle {
+margin-left: -4px !important;
+margin-top: -2px !important;
+}
+
+.uptoDesc_50 .task_item_botm_sketch .add_task_area_sketch {
+margin-top: 6px !important;
+}
+.uptoDesc_50 .task_item_top_sketch .energy_field {
+width: 33px !important;
+margin-top: 0px !important;
+}
+
+
+.uptoDesc_50 .task_item_top_sketch .task_middle {
+font-size: 14px !important;
+margin-top: -2px !important;
+}
+
+.uptoDesc_50 .task_item_top_sketch .energy_percent {
+margin-left: -4px !important;
+}
+
+.uptoDesc_55 .additional_area .form-control-additional{	
+width: 177px !important;
+line-height: 14px !important;
+font-size: 15px !important;
+}
+.uptoDesc_55 .form-control-sketch {
+margin-top: -4px !important;
+line-height: 30px !important;
+}
+.uptoDesc_55 .task_item_top_sketch .task_middle {
+font-size: 13px !important;
+margin-top: -3px !important;
+}
+.uptoDesc_55 .task_item_top_sketch {
+height: 18% !important;
+}
+
+.uptoDesc_55 .task_item_top_sketch .energy_field {
+margin-top: 3px !important;
+}
+
+.uptoDesc_55  .task_item_top_sketch .energy_middle {
+font-size: 12px !important;
+margin-top: -2px !important;
+margin-right: 4px !important;
+}
+
+
+.uptoDesc_55 .energy {
+width: 49% !important;
+}
+
+.uptoDesc_55 .task_item_top_sketch  .energy_percent {
+margin-top: 2px;
+font-weight: bold;
+margin-left: -4px !important;
+}
+
+.uptoDesc_55 .task_item_top_sketch .form-control-sketch {
+margin-top: -4px !important;
+}
+.uptoDesc_55 .input-sm_custom {
+height: 29px !important;
+}
+.uptoDesc_55 .task_item_botm_sketch textarea {
+
+margin-top: 6px !important;
+}
+
+
+.uptoDesc_60 .task_item_top_sketch {
+height: 16% !important;
+}
+
+.uptoDesc_60 .task_item_top_sketch .task_middle {
+font-size: 15px;
+}
+
+.uptoDesc_60 .additional_area .form-control-additional{	
+width: 184px !important;
+line-height: 14px !important;
+font-size: 15px !important;
+}
+.uptoDesc_60 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 5px !important;
+}
+.uptoDesc_60 .task_item_top_sketch .energy {
+margin-left: -11px !important;
+}
+.uptoDesc_60 .task_item_top_sketch .energy_field {
+width: 33px !important;
+margin-top: -3px !important;
+}
+.uptoDesc_60  .task_item_top_sketch .energy_middle {
+font-size: 13px !important;
+margin-left: -3px !important;
+}
+
+.uptoDesc_60 .task_item_top_sketch .energy_percent {
+margin-top: 0px;
+font-weight: bold;
+margin-left: -4px !important;
+}
+
+
+.uptoDesc_65 .additional_area .form-control-additional{	
+width: 200px !important;
+line-height: 14px !important;
+font-size: 15px !important;
+}
+
+.uptoDesc_65 .task_item_top_sketch {
+height: 17% !important;
+}
+
+.uptoDesc_65 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 4px !important;
+}
+
+.uptoDesc_65 .task_item_top_sketch .energy {
+margin-left: -13px !important;
+}
+
+
+.uptoDesc_65 .task_item_top_sketch .energy_middle {
+font-size: 13px !important;
+padding-right: 0px !important;
+}
+
+.uptoDesc_65 .task_item_top_sketch .energy_percent {
+margin-left: -3px !important;
+}
+
+.uptoDesc_65 .task_item_top_sketch .energy_field {
+width: 36px !important;
+margin-top: -2px !important;
+margin-left: 8px !important;
+}
+
+
+.uptoDesc_70 .additional_area .form-control-additional{	
+width: 194px !important;
+line-height: 16px !important;
+font-size: 15px !important;
+}
+.uptoDesc_70 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 1px !important;
+}
+.uptoDesc_70 .energy_field .form-control-sketch{
+margin-top: -2px;
+}
+.uptoDesc_70 .task_item_top_sketch .energy {
+margin-left: -11px !important;
+}
+
+.uptoDesc_70 .task_item_top_sketch .energy_percent {
+margin-top: 0px;
+margin-left: -4px !important;
+}
+
+.uptoDesc_70 .task_item_top_sketch .energy_field {
+width: 35px !important;
+}
+
+.uptoDesc_75 .additional_area .form-control-additional{	
+width: 198px !important;
+line-height: 16px !important;
+font-size: 15px !important;
+}
+.uptoDesc_75 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 6px !important;
+}
+
+.uptoDesc_75 .task_item_top_sketch .energy {
+margin-left: -11px !important;
+}
+
+.uptoDesc_75 .task_item_top_sketch .energy_field {
+width: 35px !important;
+margin-top: -2px !important;
+}
+.uptoDesc_75 .task_item_top_sketch .energy_percent {
+margin-top: 0px;
+font-weight: bold;
+margin-left: -5px !important;
+}
+
+
+.uptoDesc_80 .additional_area .form-control-additional{	
+width: 220px !important;
+line-height: 16px !important;
+font-size: 15px !important;
+}
+.uptoDesc_80 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 6px !important;
+}
+
+.uptoDesc_80 .task_item_top_sketch {
+height: 14% !important;
+}
+.uptoDesc_80 .task_item_top_sketch .energy {
+margin-left: -11px !important;
+}
+
+.uptoDesc_80 .task_item_top_sketch .energy_percent {
+margin-left: -2px !important;
+}
+
+.uptoDesc_80 .energy_field {
+width: 33px !important;
+margin-top: -2px !important;
+margin-right: -3px !important;
+}
+.uptoDesc_80 .single_task_item_sketch .task_item_top_sketch {
+padding: 3px !important;
+}
+
+.uptoDesc_90 .task_item_top_sketch {
+height: 14% !important;
+}
+
+
+.uptoDesc_90 .energy_field {
+width: 33px !important;
+margin-top: -2px !important;
+margin-right: 1px !important;
+}
+
+.uptoDesc_90 .task_item_botm_sketch .add_task_area_sketch{
+margin-top: 7px !important;
+}
+.uptoDesc_90 .additional_area .form-control-additional{
+width: 240px !important;
+line-height: 14px !important;
+font-size: 15px !important;
+}
+.uptoDesc_90 .task_item_top_sketch  *{
+padding: 0px !important;
+margin-top: 0px !important;
+}
+
+.uptoDesc_90 .input-sm_custom{
+height: 26px;
+margin-top: 5px !important;
+}
+
+.uptoDesc_90 .energy_percent {
+margin-top: 4px;
+font-weight: bold;
+margin-left: 0px !important;
+margin-top: 5px !important;
+}
+
+
+.uptoDesc_90 .task_item_top_sketch .energy {
+margin-left: -8px !important;
+margin-top: 1px !important;
+}
+
+.uptoDesc_90 .task_item_top_sketch .task_middle {
+font-size: 16px !important;
+margin-top: 1px !important;
+}
+
+
+.plus_sign_small {
+/* background-image: url(../img/strength.png); */
+width: 66px !important;
+}
+
+.up_triangle_small {
+width:67px !important;
+margin-left:15px !important;
+}
+
+.oval_draggable {
+margin-left: -18px!important;
+}
+
+/*.speech-bubble textarea {
+margin-left: 3px !important;
+margin-top: 1.5px !important;
+}*/
+
+}

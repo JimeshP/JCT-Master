@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true" scanPeriod="5 minutes">
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%-4relative [%thread] %-5level %class - %msg%n</pattern>
+		</layout>
+	</appender>
+	<appender name="dailyRollingFileAppender"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>/home/vcap/logs/jct_admin.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<FileNamePattern>/home/vcap/logs/jct_admin-%d{yyyy-MM-dd}.log
+			</FileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n
+			</Pattern>
+		</encoder>
+	</appender>
+
+	<!-- <logger name="org.springframework"> <level value="info" /> </logger> 
+		<logger name="org.hibernate"> <level value="info" /> </logger> <logger name="org.hibernate.type"> 
+		<level value="info" /> </logger> -->
+
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="dailyRollingFileAppender" />
+	</root>
+
+</configuration>

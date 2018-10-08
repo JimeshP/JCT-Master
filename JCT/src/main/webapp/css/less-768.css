@@ -1,0 +1,1400 @@
+@media screen and (max-width: 800px) {
+
+.main_warp{
+	width: 100%  !important;
+	margin: 0;
+	padding: 0;
+	/* border: 2px solid green; */ 
+	position: relative;
+	display: table;
+}	
+
+.content-area{
+	width: 100% !important;
+	overflow: scroll;
+	/* border: 2px dotted black; */
+}
+
+	
+*{
+	/* transition:1s all ease; */
+}	
+  .time_section{
+   text-align: center;
+  }
+.logo_area h5.heading_main{
+	text-align: center;
+/*	width: 203px; */
+	width: 118px;
+	margin: 0 auto !important;
+}
+.header_wrap_area .time_section .clock_area {
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: auto !important;
+}
+.welcome_area{
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.main_nav li a{
+	text-align: center;
+	color:#363636 !important;
+}
+.footer_landing {
+    bottom: 0;
+    position: relative !important;
+}
+iframe{
+	display: none !important;
+}
+.button{
+	margin-right: 5%;
+}
+.Prev_btn_area{
+	position: absolute;
+	left: 3%;
+	top: 3px;
+}
+.Next_btn_area{
+	position: absolute;
+	right: 3%;
+	top: 3px;
+}
+.prev_nxt_sec{
+	padding: 38px 0 0 0;
+	position: relative;
+}
+.sign_up img{
+	/*width: 50%;*/
+}	
+.top_signin_area{
+   padding-top: 5px;
+   padding-bottom: 5px;
+   float: none;
+   margin: 0 auto;
+   width: 83% !important; 	
+}	
+	
+.area_forgot-pass	{
+	 /* float: none; */ 
+	display: inline;
+}
+	
+.area_login{
+	float: right;
+}	
+	
+.diagramBox title{
+	font-size: 13px;
+	padding-right:25px;
+	padding-top: 35px;
+}	
+	
+.diagramBox .diagram-hide {
+    cursor: pointer;
+    /* left: 78%; */
+    position: absolute;
+    top: 8px;
+}	
+
+.div_strength, .div_value, .div_passion{
+	margin-left: 0px;
+	width: 100%;
+}	
+
+.single_item {
+    border-radius: 8px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    margin-top: 1px;
+    padding: 0 !important;
+    position: relative;
+    width: 27.33%;
+    z-index: 140;
+}	
+	
+.strength_border_grad, .value_border_grad, .passion_border_grad{
+	height: 60px; 
+	overflow: auto;
+	line-height: 16px;
+	font-size: 13px;
+}	
+.div_scroll {
+    height: 160px;
+    overflow: auto;
+    width: 98%;
+}
+.div_scroll::-webkit-scrollbar {display:none;}
+
+.div_value *, .div_passion *, .div_strength * {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 1px !important;
+}
+
+.item_value input[type=checkbox]{
+	float: left;
+}
+.item_value:after{
+	clear: both;
+}
+.ins-options {
+    margin-left: 8px;
+    padding: 13px 0 0;
+}
+
+.ins-options li ul{
+	margin-left: 0;
+    padding: 13px 0 0;
+}
+
+.inner_div{
+	height: 100px;
+	overflow: scroll;
+	padding-bottom:8px;
+	margin-right:0px;
+}
+.pageWrap_after_sketch{
+	margin-top: 15px;
+}
+
+.pageWrap_after_sketch:before{
+    clear: both;
+}
+
+.navbar-brand{
+	display: block;
+}
+
+.question{
+	padding: 0;
+}
+
+.actions_heading{
+	margin-left: 0px;
+	padding: 0;
+}
+
+.answer_area{
+	padding:0 0 8px 0;
+	height: auto;
+	margin:15px 0;
+}
+
+.well_action{
+	margin: 0;
+	padding: 5px;
+    min-height: 35px;
+    height: auto;
+}
+.answer_input{
+	padding: 0;
+	margin: 0;
+	width: 95% !important;
+}
+
+.single_answer{
+	padding:8px 0 0 0 !important;
+}
+
+.question_ans_area *, .question_ans_area{
+	z-index: 88;
+}
+.radio{
+	padding-left: 24px;
+}
+
+/*  #outderDiv .single_task_item_sketch, #outderDiv .up_triangle_small, #outderDiv .oval_small, #outderDiv .plus_sign_small {
+ -moz-transform: scale(0.5,0.5);
+-webkit-transform: scale(0.5,0.5);
+transform: scale(0.5,0.5);
+z-index: 999999 !important; 
+} */ 
+
+/*#outderDiv .oval_cloned_div{
+ -moz-transform: scale(0.8,0.8);
+-webkit-transform: scale(0.8,0.8);
+transform: scale(0.8,0.8);
+} */
+
+
+.oval_cloned_div .ui-icon-gripsmall-diagonal-se{
+	zoom: 200%;
+}
+
+.oval_cloned_div{
+	/* transition:0s ease width !important; */
+	  min-height: 152px;
+    min-width: 168px;
+}
+
+
+.vertical_oval {
+    /* left: 88%; */
+    text-align: center;
+    /* top: 8%; */
+
+}
+
+.draw_oval_Shape {
+    border-radius: 8px;
+    box-shadow: 0 6px 14px #CCCCCC inset;
+    margin-left: -14px;
+    margin-top: 9px;
+    min-height: 190px;
+    overflow: hidden;
+    padding: 1px 12px 10px;
+    position: relative;
+}
+
+/* .inner_div > div{
+-moz-transform: scale(0.8,0.8);
+-webkit-transform: scale(0.8,0.8);
+transform: scale(0.8,0.8);	
+} */
+.role_frame {
+    font-size: 18px;
+}
+/*  .speech-bubble{
+  border-radius:0px; 
+ } */
+ 
+/*  .speech-bubble:before{
+	font-size: 6px;
+	vertical-align: top;
+	line-height: 11px;
+} */
+ .speech-bubble textarea{
+	z-index: 999999 !important;
+	  /* -moz-border-radius: 10px; 
+   -webkit-border-radius: 10px; 
+   border-radius: 10px; */  
+  /*  overflow: hidden; */
+  
+   overflow: hidden; 
+	
+	} 
+
+/* .horizontal_oval_active .speech-bubble {
+border-radius: 0 10px 10px 10px;
+left: 2%;
+padding: 2px 2px;
+position: absolute;
+top: 0;
+width: 19%;
+overflow: visible;
+height: 10%;
+} 
+ */
+.speech-bubble {
+	
+	/***** ROLE FRAME *****/
+    border-radius: 10px;
+   /*  padding: 5px; */
+     position: absolute;
+   
+	min-width: 18% !important;
+	/* max-width : 30% !important; */
+	/* min-height: 60px !important; */
+	min-height: 65px !important;
+	max-height: 100px !important; 
+	
+} 
+
+.vertical_oval_active .speech-bubble {
+border-radius: 10px;
+height: 7%;
+left: 3%;
+overflow: hidden;
+padding: 5px;
+position: absolute;
+top: 9px;
+width: 22%;
+}
+
+
+.instruction{
+	position: absolute;
+	opacity:0.8;
+}
+
+#panel{
+	padding-top: 15px;
+}
+
+.ins-title{
+  left: 23px;
+}
+
+#outderDiv .removeService {	
+	display: block;
+
+}
+.horizontal_oval_active .ui-resizable-se {
+bottom: 10%;
+cursor: se-resize;
+height: 9px;
+right: 9%;
+width: 12px;
+}
+
+.vertical_oval_active .ui-resizable-se {
+    bottom: 9%;
+    cursor: se-resize;
+    height: 12px;
+    right: 18%;
+    width: 12px;
+}	
+
+
+h5.logoGeneral{
+  background: url("/user/img/logoGeneral.png") no-repeat center 9px;
+  display: block;
+  width: 203px;
+  height: 43px;
+  margin-top: 5px;
+  
+}	
+.tool_title {
+  text-align: center;
+  line-height: 63px !important;
+}	
+
+.welcome_area {
+    margin-top: 6px !important;
+    width: 95% !important;
+}	
+	
+.af_two_area .button {
+    margin-right: 257px !important;
+}
+.up{
+	/* display: none !important; */
+	z-index:141;
+}	
+.shape_area{
+	z-index: 99;
+}	
+div.scroll{
+    height: auto;
+    overflow: scroll;
+    width: 100%;
+}
+
+.job_label{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-left:0;
+}
+
+.job_label_dropdown{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-right:0;
+}
+.job_label_dropdown select{
+	text-align: center;
+	line-height: 35px !important;
+	height: 35px !important;
+}
+.search_diagram{
+	text-align: center;
+	margin: 6px auto 0;
+}
+
+.popupMenuPanelHeader{
+	border-radius: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    height: auto;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 2%;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.popupHeader{
+	width: 94%;
+	height: auto;
+	text-align: center;
+	margin: 6px auto;
+}
+.popupBackButton{
+	margin-top: 0;
+	
+}
+#mainPic{
+	margin-top: 0;
+}
+
+.fancybox-inner{
+	height: auto !important;
+}
+
+.thumbnailPopup{
+	height: auto !important;
+}
+.outer_div_item{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.oval, .plus-sign, .up-triangle{
+	margin-left: 0;
+	margin-right: 0;
+}
+.item_value input[type="checkbox"]{
+	height: 12px !important;
+	float: left !important;
+	padding: 0 !important;
+	margin: 2px 0 0 0  !important;
+	width:12px !important;
+}
+.item_value{
+line-height:19px !important;
+/*border:1px solid red;*/
+text-align:left;
+float:none;
+}
+.diagramBox .heading-diagram{
+font-size:13px;
+}
+/*.no_scroll::-webkit-scrollbar {display:none !important;}*/
+
+.sign_up {
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 44px;
+	margin:0;
+}
+.strength_inner_div, .value_inner_div, .passion_inner_div {
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    display: inline-block;
+	padding: 0px;
+}
+
+.answer_no{
+font-weight:bold;
+padding-left:3px;
+}
+.value_outer_div{
+padding-left:7px;
+}
+/*.form_area_wraper{
+	min-height:1000px !important;
+	overflow: auto;
+}*/
+.horizontal_oval_active{
+max-width:100% !important;
+}
+/*#backButton{
+margin-bottom:15px;
+}*/	
+.paginator{
+display:none !important;
+}	
+#imageBS{
+margin-top:15px;
+}	
+.pageWrap_item{
+width:93% !important;
+padding:2px 2px 20px 2px;
+}
+.energy_field{
+width:26.667% !important;
+}
+.task_item_top .task {    
+    font-weight: normal;
+    margin-top: 3px;
+    text-align: left;
+    width: 21% ;
+}
+.task_item_top *{
+padding: 0 !important; 
+}	
+	
+#sketchSearchDiv::-webkit-scrollbar {
+display:none !important;
+}	
+
+
+#ASsketchSearchDiv::-webkit-scrollbar {
+display:none !important;
+}	
+	
+.total_time_text{
+padding-left:0;
+}	
+.task_smaller{
+font-size:11px;
+}
+.single_task_item{
+/* margin:10px; */
+margin-top: 12px !important;  	
+margin-bottom: 12px !important;
+margin-left: 18px !important;
+margin-right: 12px !important;	 
+}
+#outderDiv .energy_field{
+width:22% !important;
+}
+.current_time_hrs input{
+color:#000000 !important;
+opacity:1;
+}
+.current_time_hrs_txt, .current_time_hrs input{
+color:#000000 !important;
+}
+
+.single_task_item_sketch{
+/* margin:10px; */
+/* margin: 20px 10px 40px; */
+margin-top: 12px;  	
+margin-bottom: 12px;
+margin-left: 18px;
+margin-right: 12px;	 
+}
+
+.form-control-additional{
+	width: 70%;
+	height: auto;
+}
+
+.task_item_top_sketch .task {
+    
+    font-weight: normal;
+    margin-top: 3px;
+    text-align: left;
+    width: 21% !important;
+}
+.task_item_top_sketch *{
+padding: 0 !important; 
+}
+.additional_area {
+    min-height: 24%;
+    padding: 1px !important;
+}
+.person_icon {
+	height: auto;
+    width: 25%;
+    padding: 0 3px 0 0;
+    margin-right: 0;
+	}
+
+	.plus_sign_small {
+	margin-left:8px;
+	margin-top: 6px;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	display: inline-block;
+	}
+	
+	.up_triangle_small{
+	margin-left: 8px;
+	margin-top: 6px;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	display: inline-block;
+	}
+		
+	.oval_small {
+	height: 55px;
+	line-height: 55px;
+	width: 55px;
+	display: inline-block;
+	margin-top: 2px;
+	margin-left: 6px;
+	}
+ 
+ /* Start before sketch page Special task box css */ 
+ .task_item_top {
+    height:22%;
+ 	min-height: 39px;
+ }
+ 
+ .task_item_botm{
+ height: 78%;
+ padding: 5px !important
+ }
+ 
+ .task_item_top .task{
+ font-size: 10px;
+ line-height: 23px;
+ width: 27% !important;
+ }
+ .task_item_top .task_smaller{
+ font-size: 7px;
+ line-height: 21px;
+ width: 25% !important;
+ }
+ .task_item_top .task_middle{
+ font-size: 12px;
+ line-height: 23px;
+ width: 27% !important;
+ }
+
+ 
+ 
+  .task_item_top .energy{
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    width: 35% !important;
+}
+ .task_item_top .energy_smaller {
+    font-size: 7px;
+    line-height: 13px;
+    text-align: center;
+    width: 36% !important;
+}
+ .task_item_top .energy_small{
+    font-size: 7px;
+    line-height: 13px;
+    text-align: center;
+    width: 35% !important;
+}
+.task_item_top .energy_middle{
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    width: 35% !important;
+}
+ .task_item_botm textarea{
+ font-size: 100%;
+ }
+
+ /* end before sketch page Special task box css */ 
+
+.input-sm_custom{
+ width: 19px;
+ font-size: 12px !important;	
+ font-weight: normal;
+}
+.form-control-sketch_smaller{
+ width: 15px;
+ font-size: 12px !important;
+ }
+.form-control-sketch_small{
+ width: 19px;
+ font-size: 12px !important;
+ } 
+ .form-control-sketch_middle{
+ width: 26px;
+ font-size: 12px !important;
+ }
+  .form-control-sketch_large{
+ width: 39px;
+ font-size: 14px !important;
+ }
+ .form-control-sketch_larger{
+  width: 54px;
+ font-size: 16px !important;
+ }
+
+ 
+ .energy_percent{
+ font-size: 12px;
+ line-height: 29px;
+ }
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+/* Start after sketch page Special task box css */  
+.task_item_top_sketch {
+    height: 31%;
+    min-height: 36%;
+    padding: 5% 1px 0 !important;
+}
+/*  .task_item_top_sketch {
+  	min-height: 23px;
+ } */
+ 
+ .task_item_botm{
+ height: 78%;
+ padding: 5px !important
+ }
+ 
+ 
+ 
+ 
+ .task_item_top_sketch .task{
+ font-size: 10px;
+ line-height: 23px;
+ width: 27% !important;
+ }
+ .task_item_top_sketch .task_smaller{
+ font-size: 7px;
+ line-height: 21px;
+ width: 25% !important;
+ }
+ .task_item_top_sketch .task_middle{
+ font-size: 12px;
+ line-height: 23px;
+ width: 27% !important;
+ }
+ 
+  .task_item_top_sketch .energy{
+    font-size: 9px;
+    line-height: 9px;
+    text-align: center;
+    width: 35% !important;
+    margin-top: 3px !important;
+}
+ .task_item_top_sketch .energy_smaller {
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    width: 36% !important;
+}
+ .task_item_top_sketch .energy_small{
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    width: 35% !important;
+}
+.task_item_top_sketch .energy_middle{
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    width: 35% !important;
+}
+.task_item_botm_sketch{
+	padding:1px !important; 
+}
+
+.task_item_botm_sketch {
+    height: 40%;
+    min-height: 40%;
+}
+
+.task_item_top_sketch .energy_bigger{
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    width: 41% !important;
+}
+
+
+ .task_item_top_sketch .form-control-sketch_larger{
+  width: 32px;
+ font-size: 16px !important;
+ }
+ 
+  .additional_area .form-control-additional{
+  height: 100%;
+  font-size: 100%;
+  }
+ 
+ .additional_area .form-control-additional_smaller{
+ font-size: 7px;
+ padding: 0;
+ }
+ 
+ 
+  /* End after sketch page special task box css */
+ 
+ .plus_sign_small_span p{
+    color: #000000;
+    font-size: 8px;
+    left: 0;
+    width: 100%;
+    line-height: 9px;
+}
+ .oval_small_span p {
+    color: #000000;
+    font-size: 8px;
+    left: 0;
+    width: 100%;
+    line-height: 9px;
+}
+.up_triangle_small_span p{
+    color: #000000;
+    font-size: 8px;
+    left: 0;
+    width: 100%;
+    line-height: 9px;
+}
+ 
+.cross img{
+width: 12px;
+height: auto;	
+} 
+ 
+.ui-resizable-se{
+    bottom: -12px;
+} 
+ 
+.well{
+	padding:2px !important;
+}
+ 
+.cross{
+	cursor: pointer;
+    display: block;
+    position: absolute;
+    right: -4px;
+    text-align: center;
+    top: -8px;
+    z-index: 0;
+} 
+ 
+.oval_small .delete_element {
+    cursor: pointer;
+    height: 23px;
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    top: -19px;
+    width: 24px;
+    z-index: 90;
+} 
+ 
+.plus_sign_small .delete_element {
+    cursor: pointer;
+    height: 24px;
+    position: absolute;
+    right: -1px;
+    text-align: center;
+    top: -25px;
+    width: 24px;
+    z-index: 90;
+} 
+ 
+ /*   value upto 9  */
+ 
+ .upto_9 .input-sm_custom {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 20px !important;
+    line-height: 20px !important;
+} 
+ .upto_9 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 20px !important;
+    line-height: 20px !important;
+} 
+
+/*   value upto 10  */ 
+.upto_10 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+} 
+ .upto_10 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 22px !important;
+    line-height: 22px !important;
+} 
+ 
+ .upto_10 .ui-resizable-se {
+  bottom: 0 !important;
+ }
+ .uptoBs_10 .ui-resizable-se {
+  bottom: -22px !important;
+ }
+ 
+/*   value upto 15  */ 
+.upto_15 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+} 
+ .upto_15 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+} 
+
+/*   value upto 20  */ 
+.upto_20 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+} 
+ .upto_20 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+} 
+/*   value upto 25  */ 
+.upto_25 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+} 
+ .upto_25 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 25px !important;
+    line-height: 25px !important;
+}  
+ .upto_25 .energy{
+ line-height: 13px !important;
+ font-size: 10px !important;
+ }
+ /*   value upto 30  */ 
+.upto_30 .input-sm_custom {
+	font-size: 12px !important;
+    font-weight: normal !important;
+    height: 28px !important;
+    line-height: 28px !important;
+} 
+ .upto_30 .energy_percent {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    height: 28px !important;
+    line-height: 28px !important;
+}  
+ .upto_30 .energy{
+ line-height: 13px !important;
+ font-size: 10px !important;
+ }
+ /*   value upto 35  */ 
+ .upto_35 .energy{
+ line-height: 13px !important;
+ font-size: 10px !important;
+ } 
+ /*   value upto 40  */ 
+ .upto_40 .energy{
+ line-height: 13px !important;
+ font-size: 10px !important;
+ } 
+ 
+ 
+ /*   value upto 75  */ 
+ .upto_75 .task{
+ font-size: 15px !important;
+ line-height: 45px !important;
+ } 
+.upto_75 .input-sm_custom {
+	font-size: 13px !important;
+    font-weight: normal !important;
+    height: 45px !important;
+    line-height: 45px !important;
+} 
+ .upto_75 .energy_percent {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    height: 45px !important;
+    line-height: 45px !important;
+}  
+ .upto_75 .energy{
+ line-height: 19px !important;
+ font-size: 13px !important;
+ } 
+
+ /*   value upto 80  */ 
+ .upto_80 .task{
+ font-size: 15px !important;
+ line-height: 45px !important;
+ } 
+.upto_80 .input-sm_custom {
+	font-size: 14px !important;
+    font-weight: normal !important;
+    height: 45px !important;
+    line-height: 45px !important;
+} 
+ .upto_80 .energy_percent {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    height: 45px !important;
+    line-height: 45px !important;
+}  
+ .upto_80 .energy{
+ line-height: 20px !important;
+ font-size: 14px !important;
+ } 
+ /*   value upto 85  */ 
+ .upto_85 .task{
+ font-size: 17px !important;
+ line-height: 50px !important;
+ } 
+.upto_85 .input-sm_custom {
+	font-size: 16px !important;
+    font-weight: normal !important;
+    height: 50px !important;
+    line-height: 50px !important;
+} 
+ .upto_85 .energy_percent {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    height: 50px !important;
+    line-height: 50px !important;
+}  
+ .upto_85 .energy{
+ line-height: 25px !important;
+ font-size: 16px !important;
+ } 
+ /*   value upto 90  */ 
+ .upto_90 .task{
+ font-size: 18px !important;
+ line-height: 45px !important;
+ } 
+.upto_90 .input-sm_custom {
+	font-size: 18px !important;
+    font-weight: normal !important;
+    height: 55px !important;
+    line-height: 55px !important;
+} 
+ .upto_90 .energy_percent {
+    font-size: 17px !important;
+    font-weight: normal !important;
+    height: 55px !important;
+    line-height: 55px !important;
+}  
+ .upto_90 .energy{
+ line-height: 22px !important;
+ font-size: 17px !important;
+ }  
+ 
+ 
+ 
+ .horizontal_oval{
+    left: 2%;
+    top: 8px;
+ 
+ }
+ 
+ 
+.ui-resizable-e, .ui-resizable-s{
+	/* background-image: url(../img/ui-icons_222222_256x240.png) !important; */
+	
+	/* //background-position: -33px -224px !important; */
+	/* background-color: navy; */
+	/* border: 1px dotted; */
+	 
+}
+
+.ui-resizable-e{
+	width: 25px !important;
+	right: -30px !important;
+}
+.ui-resizable-s{
+	height: 25px !important;
+    bottom: -31px !important;
+	}
+ 
+.removeService img {
+    height: auto;
+    width: 12px;
+} 
+ 
+.horizontal_oval_active .delete_oval {
+   /*  left: -2px; */
+   left: 50%;
+    top: -8px;
+}
+
+.horizontal_oval_active .delete_oval img {
+	height: 10px;
+	width: 10px;
+}
+
+.speech-bubble textarea{
+	font-size: 10px !important;
+	height: 90%;
+	border-radius:0;
+	/*top: 3px;*/
+	padding-left: 5px !important;
+	padding-right:3px !important;
+	/* line-height: 11px !important; 	 */
+	line-height: 9px !important;
+} 
+.common_div{
+	height: auto;
+	padding-left: 0px;
+	float: left;
+	margin-top: 20px;
+}  
+#drawShape .ellipse_main img{
+	width: 113% !important;
+}
+.outer_div_item{
+	border-bottom: 1px solid #ccc;
+} 
+
+.css_5 .ui-resizable-se {
+	bottom: -22px !important;
+}
+.welcome_area {
+	margin-right: 15px !important;
+}
+.fancybox-wrap {
+	left: 10% ;
+	width: 540px ;
+}
+.fancybox-inner {
+	width: 540px ;
+	min-width: 540px ;
+}
+
+
+.shape_area .inner_div .common_div{
+float: none;
+    height: auto;
+    margin: 0 auto !important;
+    padding-left: 0;
+    width: auto !important;
+}
+.shape_area .inner_div .strength_inner_div, .shape_area .inner_div .value_inner_div, .shape_area .inner_div .passion_inner_div {
+    display: table;
+    margin-left: 10px;
+    margin-right: auto;
+} 
+
+/* Dated : 16.07.2014
+   Added to implement popover to show attribute description on mouse hover on attribute name*/
+.popover.top {
+  margin-top: 30px !important;
+  margin-left: 60px !important;
+}
+
+.top .popover-title { 
+   font-size: 10px; 
+   line-height: 12px;
+   max-width: 150px !important;
+   padding: 0px !important;
+}
+
+.bottom .popover-title { 
+   font-size: 10px; 
+   line-height: 12px;
+   max-width: 150px !important;
+}
+.popover.bottom {
+  margin-top: 6px;
+  margin-left: 60px;
+}
+
+.popover.top .arrow {
+  left: 30%;
+}
+
+/* Dated : 25.07.2014
+   Added to implement New change request Edit After Sketch cancel button positioning */
+.cancel_btn{
+  left: 42%; 	
+}
+
+.single_task_item {
+	min-width: 65px;   
+	min-height: 65px;   
+}
+
+.lock_single_task_item {
+	min-width: 65px;   
+	min-height: 65px;   
+}
+
+.single_task_item_sketch{
+	min-width: 65px;   
+	min-height: 65px;
+}
+
+.lock_single_task_item_sketch{
+	min-width: 65px;   
+	min-height: 65px;
+}
+
+/* Dated : 31.07.2014
+   Added to implement New change request internal issue fix for tooltip */
+.tooltip-inner {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 9px !important;
+    line-height: 10px !important;
+    padding: 1px !important;
+    font-weight: normal !important;
+    opacity:1 !important;
+}
+.tooltip ~ .tooltip .tooltip-arrow{
+	display: none !important;
+}
+
+
+/* Dated : 04.08.2014
+   Added to implement strength value psssion text centre */
+.oval_small_span {
+    height: 24px;
+    left: 10%;
+    top: 30%;
+    width: 42px;
+}
+.plus_sign_small_span{
+	height: 26px;
+    left: 3px;
+    top: 26%;
+    width: 44px;
+}
+.up_triangle_small_span{
+	height: 32px;
+    left: 4%;
+    top: 26%;
+    width: 45px;	
+}
+
+
+/* Dated : 14.08.2014
+   Added to new landing page */
+.video-section{ 
+    width: 90%;
+}
+.video-section video{
+	width: 65%;
+}
+.testimonial{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.role_text {
+	font-size: 10px;
+	left: 1px !important;
+}
+
+.lock_single_task_item_sketch {
+	border-radius: 10%;
+  	background-color: #BCED91;
+  	float: left;
+  	position: relative;  	
+  	padding:0 !important;	
+   	opacity: 0.7; 
+	margin-top: 12px;  	
+	margin-bottom: 12px;
+	margin-left: 18px;
+	margin-right: 12px;
+	min-width: 65px;   
+	min-height: 65px;
+}
+
+.lock_single_task_item_sketch .task_item_top_sketch {
+	background-color: #B6C98B !important;
+}
+
+.lock_single_task_item_sketch .task_item_botm_sketch {
+	background-color: #B6C98B !important;
+}
+
+.lock_single_task_item {
+	border-radius: 10%;
+  	background-color: #FFD64E; 
+  	float: left;
+  	position: relative;
+  	padding:0 !important;
+  	opacity: 0.7;
+	margin-top: 12px !important;  	
+	margin-bottom: 12px !important;
+	margin-left: 18px !important;
+	margin-right: 12px !important;	 
+}
+
+.lock_single_task_item .task_item_top {
+	background-color: #FDE183 !important; 	
+}
+
+.lock_single_task_item .task_item_botm {
+	background-color: #FDE183 !important; 	
+}
+/* .lock_single_task_item_sketch .task_item_top .energy_field .form-control-sketch {
+   background-color: #EBEEF0 !important;
+} */
+
+.energy_lock {
+	 /* background-color: #EBEEF0 !important; */
+	 background-color: #b7b9ba !important;
+}
+.lock_unlock_img {
+	height: 16px;
+	width: 16px;
+}
+
+/* #nwgrip, #negrip, #swgrip, #segrip, #ngrip, #egrip, #sgrip, #wgrip {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: red !important;
+} */
+
+.clickable_element_1 {
+    top: -11px !important;
+    left: 31px !important; 
+}
+
+.clickable_element_2 {
+    top: 12px !important;
+    left: -10px !important; 
+}
+
+.searchClass{
+	margin-left: 44% !important;
+	margin-top: 2% !important;
+}
+.label_device{
+	margin-left: 3% !important;
+}
+
+.ins_video_box .fancybox-outer, .fancybox-inner {
+	min-height: 150px !important;
+	min-width: 300px !important;
+}
+.ins-page-title {
+	font-size: 16px; 
+	font-weight: normal;
+	color:#00b0f0;
+	text-align: center;
+	padding: 0%;
+}
+
+.ins-video-section {
+	margin-top: 2%;
+}
+.welcome_title{
+    width: 100%;
+    margin-top: 2px !important;  
+}
+.welcome_title_text{
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.username_field{
+  margin-bottom: 5px;
+}
+.login-form-area{
+    margin-bottom: 80px;
+}
+.welcome_area{
+    margin: 0 auto !important;
+    width: 40% !important;
+    float: none !important;
+}
+
+}   /*  css conditional bracket dont use it or delete it :) */
+
